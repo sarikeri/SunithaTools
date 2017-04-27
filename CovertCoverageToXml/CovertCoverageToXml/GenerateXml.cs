@@ -28,7 +28,7 @@ namespace CovertCoverageToXml
                 //args = new string[3] { @"\\hqomsws04t1a.dstest.drugstore.com\webroot\ContentCatalogService\Dev2_ContentCatalogService_16.03.16.03\bin\CCProductBlurb.coverage", "ConentCatalogProductBlurb", @"C:\QAAutomation\CoverageFiles\ContentCatalog" };
                 
                 //Uncomment once testing is done
-                Console.WriteLine("Invalid Arguments......");
+                Console.WriteLine("Invalid Arguments..........");
                 Console.WriteLine("Argumenst should be Coverage File Path (same as instrumented bin path), Application Name, Xml File Location");
                 return;
             }

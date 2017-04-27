@@ -4,3 +4,6 @@ C:\Automation\Examples\CovertCoverageToXml\CovertCoverageToXml\obj\x86\Debug\Cov
 C:\Automation\Examples\CovertCoverageToXml\CovertCoverageToXml\obj\x86\Debug\CovertCoverageToXml.pdb
 C:\Automation\Examples\CovertCoverageToXml\CovertCoverageToXml\obj\x86\Debug\CovertCoverageToXml.csprojResolveAssemblyReference.cache
 C:\Automation\Examples\CovertCoverageToXml\CovertCoverageToXml\bin\Debug\CovertCoverageToXml.exe.config
+C:\Automation\Examples\GitHub\SunithaTools\CovertCoverageToXml\CovertCoverageToXml\bin\Debug\CovertCoverageToXml.exe.config
+C:\Automation\Examples\GitHub\SunithaTools\CovertCoverageToXml\CovertCoverageToXml\obj\x86\Debug\CovertCoverageToXml.exe
+C:\Automation\Examples\GitHub\SunithaTools\CovertCoverageToXml\CovertCoverageToXml\obj\x86\Debug\CovertCoverageToXml.pdb
