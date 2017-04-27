@@ -1,0 +1,6 @@
+C:\Automation\Examples\CovertCoverageToXml\CovertCoverageToXml\bin\Debug\CovertCoverageToXml.exe
+C:\Automation\Examples\CovertCoverageToXml\CovertCoverageToXml\bin\Debug\CovertCoverageToXml.pdb
+C:\Automation\Examples\CovertCoverageToXml\CovertCoverageToXml\obj\x86\Debug\CovertCoverageToXml.exe
+C:\Automation\Examples\CovertCoverageToXml\CovertCoverageToXml\obj\x86\Debug\CovertCoverageToXml.pdb
+C:\Automation\Examples\CovertCoverageToXml\CovertCoverageToXml\obj\x86\Debug\CovertCoverageToXml.csprojResolveAssemblyReference.cache
+C:\Automation\Examples\CovertCoverageToXml\CovertCoverageToXml\bin\Debug\CovertCoverageToXml.exe.config

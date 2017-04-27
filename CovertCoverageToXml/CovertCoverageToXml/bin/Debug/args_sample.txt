@@ -1,0 +1,3 @@
+
+/*********** arg1= coveragefilename arg2=foldername arg3=filedestination folder path
+CovertCoverageToXml.exe "\hqomsws04t1a.dstest.drugstore.com\webroot\ContentCatalogService\Dev2_ContentCatalogService_16.05.05.00\bin\CCSCC.coverage" "ContentCatalog" "C:\qaAutomation\coverageFiles\ContentCatalog"
