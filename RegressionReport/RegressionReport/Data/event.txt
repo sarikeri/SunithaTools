@@ -1,0 +1,10 @@
+﻿{
+	"ClientId": "1",
+	"SiteId": "100",
+	"KeyValue1": "879544254",
+	"KeyValue2": "070358180009382",
+	"EventName": "Cancelled",
+	"EventData": "<EventSourceData><EventType>Shipped</EventType></EventSourceData>",
+	"SecondarySubscribingClientIds": null,
+	"ClientReferenceId": "6480fd2ec71a4d7c95980333efa0c807"
+}

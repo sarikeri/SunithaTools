@@ -1,0 +1,15 @@
+c:\users\sarikeri\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+c:\users\sarikeri\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+c:\users\sarikeri\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+c:\users\sarikeri\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+c:\users\sarikeri\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Oracle.ManagedDataAccess.dll
+c:\users\sarikeri\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+c:\users\sarikeri\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+c:\users\sarikeri\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Automation\Examples\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Automation\Examples\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Automation\Examples\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Automation\Examples\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Automation\Examples\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Automation\Examples\ConsoleApplication1\ConsoleApplication1\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Automation\Examples\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache

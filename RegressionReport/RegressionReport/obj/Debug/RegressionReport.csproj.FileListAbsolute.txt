@@ -1,0 +1,13 @@
+C:\Users\SArikeri\Documents\Visual Studio 2013\Projects\RegressionReport\RegressionReport\bin\RegressionReport.dll.config
+C:\Users\SArikeri\Documents\Visual Studio 2013\Projects\RegressionReport\RegressionReport\bin\RegressionReport.dll
+C:\Users\SArikeri\Documents\Visual Studio 2013\Projects\RegressionReport\RegressionReport\bin\RegressionReport.pdb
+C:\Users\SArikeri\Documents\Visual Studio 2013\Projects\RegressionReport\RegressionReport\obj\Debug\RegressionReport.dll
+C:\Users\SArikeri\Documents\Visual Studio 2013\Projects\RegressionReport\RegressionReport\obj\Debug\RegressionReport.pdb
+C:\Users\SArikeri\Documents\Visual Studio 2013\Projects\RegressionReport\RegressionReport\obj\Debug\RegressionReport.csprojResolveAssemblyReference.cache
+C:\Automation\Examples\RegressionReport\RegressionReport\bin\RegressionReport.dll.config
+C:\Automation\Examples\RegressionReport\RegressionReport\bin\RegressionReport.dll
+C:\Automation\Examples\RegressionReport\RegressionReport\bin\RegressionReport.pdb
+C:\Automation\Examples\RegressionReport\RegressionReport\bin\RestSharp.dll
+C:\Automation\Examples\RegressionReport\RegressionReport\obj\Debug\RegressionReport.dll
+C:\Automation\Examples\RegressionReport\RegressionReport\obj\Debug\RegressionReport.pdb
+C:\Automation\Examples\RegressionReport\RegressionReport\obj\Debug\RegressionReport.csprojResolveAssemblyReference.cache

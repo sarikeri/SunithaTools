@@ -1,0 +1,6 @@
+C:\Users\SArikeri\documents\visual studio 2013\Projects\RegressionReport\RegressionReport\bin\RegressionReport.dll.config
+C:\Users\SArikeri\documents\visual studio 2013\Projects\RegressionReport\RegressionReport\bin\RegressionReport.dll
+C:\Users\SArikeri\documents\visual studio 2013\Projects\RegressionReport\RegressionReport\bin\RegressionReport.pdb
+C:\Users\SArikeri\documents\visual studio 2013\Projects\RegressionReport\RegressionReport\obj\Release\RegressionReport.csprojResolveAssemblyReference.cache
+C:\Users\SArikeri\documents\visual studio 2013\Projects\RegressionReport\RegressionReport\obj\Release\RegressionReport.dll
+C:\Users\SArikeri\documents\visual studio 2013\Projects\RegressionReport\RegressionReport\obj\Release\RegressionReport.pdb

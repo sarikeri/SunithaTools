@@ -1,0 +1,22 @@
+﻿{
+	"ShippingMethod": 1,
+	"Timestamp": "2017-04-06T04:05:12.6889-07:00",
+	"Id": "9230072",
+	"SourceType": 4,
+	"Flags": null,
+	"SiteId": 500,
+	"CountryCode": "US",
+	"ZipCode": "98004",
+	"AddressFlag": 0,
+	"ItemGroups": [{
+		"GroupSource": 0,
+		"Lineitems": [{
+			"LineitemId": 1,
+			"SiteId": 500,
+			"Flags": 0,
+			"UnitPrice": null,
+			"ProductId": 79373,
+			"OrderedQuantity": 10
+		}]
+	}]
+}

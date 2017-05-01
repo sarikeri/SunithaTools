@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PackageTracking>
+  <APIs>
+    <Heartbeat querystring="/Heartbeat "/>
+    <TrackingDetail querystring="/TrackingDetail?ClientId=2&#38;ClientRequestReferenceId='123456789'&#38;SiteId=100&#38;OrderId='123456789'&#38;ShippingDateTime={0}&#38;CarrierId={1}&#38;TrackingId={2}"/>
+    <TrackingSubscription>
+      <ClientId>2</ClientId>
+      <ClientRequestReferenceId>1234567898908</ClientRequestReferenceId>
+      <PackageDetails>
+        <SiteId>100</SiteId>
+        <OrderId>1234567898908</OrderId>
+        <ShippingDateTime>{0}</ShippingDateTime>
+        <CarrierId>{1}</CarrierId>
+        <TrackingId>{2}</TrackingId>
+        <SecondarySubscribingClientIds>123456789909</SecondarySubscribingClientIds>
+        <DestinationZipCode>98004</DestinationZipCode>
+      </PackageDetails>
+    </TrackingSubscription>
+  </APIs>
+  <Environment Description="T1A Test environment" Name="T1A" >
+    <ServiceName ApplicationPool="PackageTrackingService" UrlFormat="https://{0}/PackageTrackingService/v1/" Description="PACKAGETRACKING" EnvUrlFormat="https://PackageTrackingService-test.dstest.drugstore.com/PackageTrackingService/v1" />
+    </Environment>
+  <Environment Description="T1B Test environment" Name="T1B" >
+    <ServiceName ApplicationPool="PackageTrackingService" UrlFormat="https://{0}/PackageTrackingService/v1/" Description="PACKAGETRACKING" EnvUrlFormat="https://PackageTrackingService-t1b.dstest.drugstore.com/PackageTrackingService/v1" />
+  </Environment>
+  <Environment Description="T2 Test environment" Name="T2" >
+    <ServiceName ApplicationPool="PackageTrackingService" UrlFormat="https://{0}/PackageTrackingService/v1/" Description="PACKAGETRACKING" EnvUrlFormat="https://PackageTrackingService-t2.corp.drugstore.com/PackageTrackingService/v1" />
+    <!--<Heartbeat querystring="/Heartbeat "/>
+    <TrackingDetail querystring="/TrackingDetail?ClientId=2&#38;ClientRequestReferenceId='123456789'&#38;SiteId=100&#38;OrderId='123456789'&#38;ShippingDateTime={0}&#38;CarrierId={1}&#38;TrackingId={2}"/>
+    <TrackingSubscription>
+    </TrackingSubscription>-->
+  </Environment>
+  <Environment Description="T3(Stage) Test environment" Name="T3" >
+    <ServiceName ApplicationPool="PackageTrackingService" UrlFormat="https://{0}/PackageTrackingService/v1/" Description="PACKAGETRACKING" EnvUrlFormat="https://PackageTrackingService-stage.dstage.drugstore.com/PackageTrackingService/v1" />
+    <!--<Heartbeat querystring="/Heartbeat "/>
+    <TrackingDetail querystring="/TrackingDetail?ClientId=2&#38;ClientRequestReferenceId='123456789'&#38;SiteId=100&#38;OrderId='123456789'&#38;ShippingDateTime={0}&#38;CarrierId={1}&#38;TrackingId={2}"/>
+    <TrackingSubscription>
+    </TrackingSubscription>-->
+  </Environment>
+  <Environment Description="Integration environment" Name="Integration" >
+    <ServiceName ApplicationPool="PackageTrackingService" UrlFormat="https://{0}/PackageTrackingService/v1/" Description="PACKAGETRACKING" EnvUrlFormat="https://PackageTrackingService-int.corp.drugstore.com/PackageTrackingService/v1" />
+    <!--<Heartbeat querystring="/Heartbeat "/>
+    <TrackingDetail querystring="/TrackingDetail?ClientId=2&#38;ClientRequestReferenceId='123456789'&#38;SiteId=100&#38;OrderId='123456789'&#38;ShippingDateTime={0}&#38;CarrierId={1}&#38;TrackingId={2}"/>
+    <TrackingSubscription>
+    </TrackingSubscription>-->
+  </Environment>
+  <Environment Description="Development environment" Name="X1A" >
+    <ServiceName ApplicationPool="PackageTrackingService" UrlFormat="https://{0}/PackageTrackingService/v1/" Description="PACKAGETRACKING" EnvUrlFormat="https://PackageTrackingService-dev.dsdev.drugstore.com/PackageTrackingService/v1" />
+    <!--<Heartbeat querystring="/Heartbeat "/>
+    <TrackingDetail querystring="/TrackingDetail?ClientId=2&#38;ClientRequestReferenceId='123456789'&#38;SiteId=100&#38;OrderId='123456789'&#38;ShippingDateTime={0}&#38;CarrierId={1}&#38;TrackingId={2}"/>
+    <TrackingSubscription>
+    </TrackingSubscription>-->
+  </Environment>
+  <Environment Description="WAG2 PreProd environment" Name="W2" >
+    <ServiceName ApplicationPool="PackageTrackingService" UrlFormat="https://{0}/PackageTrackingService/v1/" Description="PACKAGETRACKING" EnvUrlFormat="https://PackageTrackingService-dvdmzwalgreenco.net/PackageTrackingService/v1" />
+    <!--<Heartbeat querystring="/Heartbeat "/>
+    <TrackingDetail querystring="/TrackingDetail?ClientId=2&#38;ClientRequestReferenceId='123456789'&#38;SiteId=100&#38;OrderId='123456789'&#38;ShippingDateTime={0}&#38;CarrierId={1}&#38;TrackingId={2}"/>
+    <TrackingSubscription>
+    </TrackingSubscription>-->
+  </Environment>
+</PackageTracking>

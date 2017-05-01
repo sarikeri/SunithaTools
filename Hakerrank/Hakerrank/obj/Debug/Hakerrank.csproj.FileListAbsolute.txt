@@ -1,0 +1,6 @@
+C:\Automation\Examples\Hakerrank\Hakerrank\bin\Debug\Hakerrank.exe.config
+C:\Automation\Examples\Hakerrank\Hakerrank\bin\Debug\Hakerrank.exe
+C:\Automation\Examples\Hakerrank\Hakerrank\bin\Debug\Hakerrank.pdb
+C:\Automation\Examples\Hakerrank\Hakerrank\obj\Debug\Hakerrank.csprojResolveAssemblyReference.cache
+C:\Automation\Examples\Hakerrank\Hakerrank\obj\Debug\Hakerrank.exe
+C:\Automation\Examples\Hakerrank\Hakerrank\obj\Debug\Hakerrank.pdb

@@ -1,0 +1,18 @@
+﻿{
+	"ProductInventories": [{
+		"ProductId": "290016",
+		"LocationId": "10",
+		"LocationType": "1",
+		"QuantityAvailable": "555",
+		"QuantityOnHand": "1",
+		"InventorySnapshotTimeStamp": "2017-04-26T15:57:23.23-07:00",
+		"AvailableSoonInventories": [{
+			"POId": "123456789",
+			"Quantity": "10",
+			"Status": "Arrived",
+			"AvailableDate": "2017-04-26T15:57:23.23-07:00",
+			"SLA": "2"
+		}]
+	}],
+	"RequestTimeStamp": "4/26/2017 3:57:23 PM"
+}

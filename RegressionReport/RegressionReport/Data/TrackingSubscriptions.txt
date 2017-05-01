@@ -1,0 +1,13 @@
+﻿{
+	"PackageDetails": [{
+		"SiteId": 100,
+		"OrderId": "FedEx-T1B_05082626615",
+		"ShippingDateTime": "2017-04-13T03:52:43.378-07:00",
+		"CarrierId": "FedEx",
+		"TrackingId": "645725075573",
+		"SecondarySubscribingClientIds": [2],
+		"DestinationZipCode": "98004"
+	}],
+	"ClientId": 1,
+	"ClientRequestReferenceId": "0b9522f99fb54cc0a79e8501c171ded6"
+}

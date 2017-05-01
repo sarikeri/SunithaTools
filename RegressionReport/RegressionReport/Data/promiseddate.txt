@@ -1,0 +1,9 @@
+﻿{
+	"PromisedDates": [{
+		"LocationId": 10,
+		"LocationType": 1,
+		"ShipToZip": "98004",
+		"CutoffDate": "2017-03-07T04:25:33.326-08:00",
+		"PromisedDate": "2017-06-15T04:25:33.367-07:00"
+	}]
+}
