@@ -1,0 +1,40 @@
+{    
+    "suborderId" : "",
+    "orderId" : "",
+    "status" : "",
+    "groupId" : 1,
+    "location" : {
+        "id" : 10,
+        "type" : 1
+    },
+    "primaryLocation" : {
+        "id" : 10,
+        "type" : 1
+    },
+    "shippingTypeId" : 1,
+    "flags" : {
+        "isPresell" : false,
+        "isOutOfStock" : false,
+        "isAdjTooSoon" : false,
+        "isOutdropship" : false
+    },
+    "routingStatus" : 0,
+    "createBy" : "ORC",
+    "updateBy" : "SoftAllocate",
+	"createDate" : "2017-06-11T11:59:20.78",
+    "updateDate" : "2017-06-12T11:59:20.782",
+    "lineItems" : [ 
+        {
+            "lineItemId" : 1,
+            "qtyOrdered" : 5,
+            "qtySoftallocated" : 5,
+            "softallocatedDate" : "2017-06-12T11:59:20.782",
+            "flags" : {
+                "isGwp" : true,
+                "isKnownBO" : true,
+                "isHazmat" : true,
+                "isPresell" : true
+            }
+        }
+    ]
+}

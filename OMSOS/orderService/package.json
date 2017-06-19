@@ -1,0 +1,31 @@
+{
+  "name": "orderAccessPoint",
+  "version": "0.0.0",
+  "private": true,
+  "description": "orderAccessPoint",
+  "author": {
+    "name": "OMS",
+    "email": ""
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ajv": "5.0.1",
+    "ajv-errors": "0.4.0",
+    "async": "2.4.1",
+    "body-parser": "1.17.2",
+    "express": "4.9.8",
+    "merge": "1.2.0",
+    "moment": "2.17.1",
+    "moment-timezone": "0.5.9",
+    "mongodb": "2.2.26",
+    "morgan": "1.8.2",
+    "node-rest-client": "3.1.0",
+    "os": "0.1.1",
+    "path": "0.12.7",
+    "winston": "2.2.0",
+    "winston-daily-rotate-file": "1.4.4"
+  }
+}

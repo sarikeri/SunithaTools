@@ -1,0 +1,57 @@
+{
+   "taskPipelines":[
+      {
+         "inputType":"NewOrder",
+         "tasks":[
+            {
+               "fileName":"OOSSplitter.js",
+               "parameters":{
+                  "bundleTag":"OOS",
+                  "initRouteStatus":""
+               }, 
+               "dependsOn": [ ]
+            },
+            {
+               "fileName":"FullInventoryRouter.js",
+               "dependsOn": ["OOSSplitter.js"]
+            },
+            {
+               "id":3,
+               "fileName": "FullStockedRouter",
+               "dependsOn": ["FullInventoryRouter.js" ]
+            }
+         ]
+      },
+      {
+         "inputType":"BackOrder",
+         "tasks":[
+            {
+               "fileName":"OOSSplitter.js",
+               "parameters":{
+                  "bundleTag":"OOS"
+               }, 
+               "dependsOn": [ ]
+            },
+            {
+               "fileName":"OOSRouter.js",
+               "parameters":{
+                  "bundleTag":"OOS",
+                  "initRouteStatus":"HoldAsBackOrder"
+               }, 
+               "dependsOn": ["OOSSplitter.js"]
+            },
+            {
+               "fileName": "FullInventoryRouter.js",
+               "dependsOn": ["OOSRouter.js" ]
+            },
+            {
+               "fileName":"FullStockedRouter.js",
+               "parameters":{
+                  "initRouteStatus":"HoldAsBackOrder"
+               },                
+               "dependsOn": ["FullInventoryRouter.js" ]
+            }
+         ]
+      }
+   ]
+}

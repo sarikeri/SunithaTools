@@ -1,0 +1,38 @@
+{
+  "name": "workflowservice",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test": "istanbul cover ./node_modules/cucumber/bin/cucumber.js"
+  },
+  "description": "workflowservice",
+  "author": {
+    "name": "lli"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.2",
+    "chai": "~4.0.2",
+    "cluster": "^0.7.7",
+    "cookie-parser": "~1.4.3",
+    "cucumber": "~2.3.1",
+    "debug": "~2.6.8",
+    "express": "~4.15.3",
+    "istanbul": "~0.4.5",
+    "jade": "~1.11.0",
+    "js2xmlparser": "^3.0.0",
+    "moment": "^2.18.1",
+    "moment-timezone": "^0.5.13",
+    "mongoose": "^4.9.8",
+    "morgan": "~1.8.2",
+    "node-linq": "0.0.5",
+    "node-rest-client": "^3.1.0",
+    "serve-favicon": "~2.4.3",
+    "sinon": "~2.3.4",
+    "stylus": "0.54.5",
+    "taskpipe": "^1.0.7",
+    "validator": "^7.0.0",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.4.6"
+  }
+}

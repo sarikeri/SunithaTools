@@ -1,0 +1,25 @@
+{
+    "dcId": "17",
+    "suborderId": "05100000009101",
+    "carrierId": "4",
+    "trackingNumber": "1Z6RA0680335272916",
+    "actualShipCost": "5.99",
+    "numOfBoxesShipped": "1",
+    "shippedDate": "2017/03/16 04:28:37",
+    "packageInfo": [
+      {
+        "packageId": "C028519128",
+        "trackingNumber": "1Z6RA0680335272916",
+        "pickupNumber": "20140109",
+        "weight": "1.7700",
+        "shipCost": "5.9900",
+        "lineItemInfo": [
+          {
+            "lineItemId": "1",
+            "qtyShipped": "5",
+            "unitCost": "99.99"
+          }
+        ]
+      }
+    ]
+}

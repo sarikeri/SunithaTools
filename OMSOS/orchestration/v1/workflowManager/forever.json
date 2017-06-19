@@ -1,0 +1,11 @@
+[
+  {
+    "uid": "workflowManager",
+    "append": true,
+    "watch": true,
+    "script": "schedule.js",
+    "sourceDir": "./",
+    "minUptime": 1000,
+    "spinSleepTime": 1000
+  }
+]

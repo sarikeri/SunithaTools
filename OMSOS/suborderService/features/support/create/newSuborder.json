@@ -1,0 +1,64 @@
+{
+    "orderId" : "05289743207100",
+    "parentId" : null,
+    "status" : "New",
+    "groupId": 1,
+    "routingStatus":0,
+    "location" : {
+        "id" : 10,
+        "type" : 1
+    },
+    "primaryLocation" : {
+        "id" : 10,
+        "type" : 1
+    },
+    "shippingTypeId" : 1,
+    "shipAddr": {
+    "clientAddrId": "sample string 1",
+    "fullName": "sample string 2",
+    "type": "Other",
+    "isPOBox": true,
+    "addr1": "sample string 3",
+    "addr2": "sample string 4",
+    "city": "sample string 5",
+    "state": "sample string 6",
+    "postalCode": "560045",
+    "countryCode": "sample string 8",
+    "phones": [
+      {
+        "type": "Residential",
+        "num": "sample string 1"
+      }
+    ]
+  },
+  "createBy": "ORC",
+  "createDate": "2017/03/16 04:28:37",
+    "flags" : {
+        "isPresell": false,
+        "isOutOfStock" : true,
+        "isAdjTooSoon" : false,
+        "isOutdropship" : false
+    },
+    "lineItems" : [ 
+        {
+            "lineItemId" : "1",
+            "quantityOrdered" : 5,
+            "flags" : {
+                "isHazmat" : true,
+                "isGwp" : true,
+                "isPresell" : false,                
+                "isKnownBO" : false
+            }
+        }, 
+        {
+            "lineItemId" : "2",
+            "quantityOrdered" : 5,
+            "flags" : {
+                "isHazmat" : true,
+                "isGwp" : true,
+                "isPresell" : false,                
+                "isKnownBO" : false
+            }
+        }
+    ]
+}

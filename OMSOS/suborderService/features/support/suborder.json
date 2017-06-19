@@ -1,0 +1,129 @@
+{    
+    "suborderId" : "05289743204101",
+    "orderId" : "05289743204100",
+    "status" : "Shipped",
+    "location" : {
+        "id" : 10,
+        "type" : 1
+    },
+    "primaryLocation" : {
+        "id" : 10,
+        "type" : 1
+    },
+    "shippingTypeId" : 1,
+    "baseShipping" : 2,
+    "shippingTaxRate" : 0,
+    "total" : 5000,
+    "fsaPaymentTotal" : 5000,
+    "alternatePaymentTotal" : 1415,
+    "taxAmount" : "2",
+    "taxRateProvider" : "0",
+    "shippingCarrierId" : "4",
+    "shippingTrackingInfo" : "1Z6RA0680335272916",
+    "actualShippingCost" : 599,
+    "numberOfBoxesShipped" : "1",
+    "shippedDate" : "2017-03-16T04:28:37.000-07:00",
+    "flags" : {
+        "isSecondaryShip" : false,
+        "isPresell" : true,
+        "isSoftCancel" : false,
+        "isFSA" : false,
+        "isBackordered" : false,
+        "isPartialSoftAllocate" : false,
+        "isConsolidated" : false,
+        "isMultiRoutedOOS" : false,
+        "isRoutingQueueInjected" : false
+    },
+    "lineItems" : [ 
+        {
+            "lineItemId" : "1",
+            "qtyOrdered" : 5,
+            "qtySoftallocated" : 5,
+            "softallocatedDate" : "2017/03/14 04:28:37",
+            "qtyShipped" : 5,
+            "shippedDate" : "2017/03/16 04:28:37",
+            "taxRate" : 0,
+            "taxableAmount" : 0,
+            "flags" : {
+                "isHazmat" : true,
+                "isPresell" : true,
+                "isFSAItem" : false,
+                "isBaseSKU" : true,
+                "isAdjTooSoon" : false,
+                "isReorder" : false,
+                "isFSAPayment" : false,
+                "isKnownBO" : false
+            }
+        }, 
+        {
+            "lineItemId" : "2",
+            "qtyOrdered" : 5,
+            "qtySoftallocated" : 5,
+            "softallocatedDate" : "2017/03/14 04:28:37",
+            "qtyShipped" : 5,
+            "shippedDate" : "2017/03/16 04:28:37",
+            "taxRate" : 0,
+            "taxableAmount" : 0,
+            "flags" : {
+                "isHazmat" : true,
+                "isPresell" : true,
+                "isFSAItem" : false,
+                "isBaseSKU" : true,
+                "isAdjTooSoon" : false,
+                "isReorder" : false,
+                "isFSAPayment" : false,
+                "isKnownBO" : false
+            }
+        }
+    ],
+    "packages" : [ 
+        {
+            "packageId" : "C028519128",
+            "trackingNumber" : "1Z6RA0680335272916",
+            "weight" : "1.7700",
+            "shipCost" : 599,
+            "receivingBarcode" : null,
+            "expectedArrivalDate" : "",
+            "lineItems" : [ 
+                {
+                    "lineItemId" : "1",
+                    "qty" : "5",
+                    "unitCost" : 9999,
+                    "upc" : null,
+                    "upcCheckDigit" : null,
+                    "sku" : null
+                }, 
+                {
+                    "lineItemId" : "2",
+                    "qty" : "5",
+                    "unitCost" : 1299,
+                    "upc" : null,
+                    "upcCheckDigit" : null,
+                    "sku" : null
+                }, 
+                {
+                    "lineItemId" : "3",
+                    "qty" : "5",
+                    "unitCost" : 9999.99,
+                    "upc" : null,
+                    "upcCheckDigit" : null,
+                    "sku" : null
+                }
+            ]
+        }
+    ],
+    "cancelPending" : false,
+    "isCancelPending" : true,
+    "flag" : {
+        "isCancelPending" : true
+    },
+    "cancellationReason" : "Me",
+    "cancelledBy" : "Me",
+    "updatedBy" : "DCCancellationHandler",
+    "cancellationDate" : "2017-06-13T04:39:23.287-07:00",
+    "updateDate" : "2017-06-13T05:46:37.161-07:00",
+    "updateBy" : "ShipHandler",
+    "carrierId" : "4",
+    "trackingInfo" : "1Z6RA0680335272916",
+    "numOfBoxesShipped" : null
+}

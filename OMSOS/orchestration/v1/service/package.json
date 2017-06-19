@@ -1,0 +1,29 @@
+{
+  "name": "wag.oms.workflow-service",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "",
+    "start": "node orchestrationService.js"
+  },
+  "description": "Wag.Oms.Orchestration",
+  "author": {
+    "name": "Oms",
+    "email": ""
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jade": "^1.11.0",
+    "moment": "^2.18.1",
+    "moment-timezone": "^0.5.13",
+    "mongodb": "^2.2.26",
+    "mongoose": "^4.9.9",
+    "path": "^0.12.7",
+    "uuid": "^3.0.1",
+    "validator": "^6.3.0",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.4.6"
+  }
+}

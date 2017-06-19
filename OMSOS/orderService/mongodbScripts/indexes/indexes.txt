@@ -1,0 +1,2 @@
+db.orders.createIndex( { "clientId": 1, "clientOrderId": 1, "groups.clientGroupId": 1 }, { unique: true } )
+db.orders.createIndex( { "orderId": 1 }, { unique: true } )
