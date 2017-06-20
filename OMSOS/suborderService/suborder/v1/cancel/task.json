@@ -1,0 +1,8 @@
+{  
+  "tasks": [       
+    {
+      "fileName": "master.js",
+      "dependsOn": []
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "additionalProperties": false,
+  "required": [
+    "clientId",
+    "orderId",
+    "action",
+    "modifiedBy",
+    "modifyReason"
+  ],
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "CancelAll"
+      ]
+    },
+    "clientId": {
+      "type": "string",
+      "maxLength": 10
+    },
+    "clientOrderRefId": {
+      "type": "string",
+      "maxLength": 40
+    },
+    "modifiedBy": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "modifyReason": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "orderId": {
+      "type": "string",
+      "pattern": "^\\d{14}$"
+    }
+  },
+  "type": "object"
+}

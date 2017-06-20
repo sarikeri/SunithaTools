@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wag.Oms.OTUWS.Rest", "Wag.Oms.OTUWS.Rest\Wag.Oms.OTUWS.Rest.csproj", "{63868E7C-C5AA-4FB8-8BD3-30B016E53E92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wag.Oms.OTUWS.ApiContract", "Wag.Oms.OTUWS.ApiContract\Wag.Oms.OTUWS.ApiContract.csproj", "{7C3B2618-39EA-4966-97F6-08A8C7A56611}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wag.Oms.OTUWS.ApiImplementation", "Wag.Oms.OTUWS.ApiImplementation\Wag.Oms.OTUWS.ApiImplementation.csproj", "{FE775352-2204-4495-92A0-DAFF948BB21B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wag.Oms.OTUWS.RepositoryContracts", "Wag.Oms.OTUWS.RepositoryContracts\Wag.Oms.OTUWS.RepositoryContracts.csproj", "{97E421A4-4C3E-4C0E-BF10-4BD5CF19D924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wag.Oms.OTUWS.Repositories", "Wag.Oms.OTUWS.Repositories\Wag.Oms.OTUWS.Repositories.csproj", "{410DD6AC-D1DB-45ED-BF14-271F49954878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wag.Oms.OTUWS.Common", "Wag.Oms.OTUWS.Common\Wag.Oms.OTUWS.Common.csproj", "{241D5663-A82A-4ADF-A848-6F3C90D95EC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wag.Oms.OTUWS.Test", "Wag.Oms.OTUWS.Test\Wag.Oms.OTUWS.Test.csproj", "{AF05585B-1465-4BE3-AE4A-450467C2AB53}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://hqtfs03c:8080/tfs/drugstore
+		SccProjectUniqueName0 = Wag.Oms.OTUWS.Rest\\Wag.Oms.OTUWS.Rest.csproj
+		SccProjectName0 = Wag.Oms.OTUWS.Rest
+		SccLocalPath0 = Wag.Oms.OTUWS.Rest
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = Wag.Oms.OTUWS.ApiContract\\Wag.Oms.OTUWS.ApiContract.csproj
+		SccProjectName2 = Wag.Oms.OTUWS.ApiContract
+		SccLocalPath2 = Wag.Oms.OTUWS.ApiContract
+		SccProjectUniqueName3 = Wag.Oms.OTUWS.ApiImplementation\\Wag.Oms.OTUWS.ApiImplementation.csproj
+		SccProjectName3 = Wag.Oms.OTUWS.ApiImplementation
+		SccLocalPath3 = Wag.Oms.OTUWS.ApiImplementation
+		SccProjectUniqueName4 = Wag.Oms.OTUWS.Common\\Wag.Oms.OTUWS.Common.csproj
+		SccProjectName4 = Wag.Oms.OTUWS.Common
+		SccLocalPath4 = Wag.Oms.OTUWS.Common
+		SccProjectUniqueName5 = Wag.Oms.OTUWS.Repositories\\Wag.Oms.OTUWS.Repositories.csproj
+		SccProjectName5 = Wag.Oms.OTUWS.Repositories
+		SccLocalPath5 = Wag.Oms.OTUWS.Repositories
+		SccProjectUniqueName6 = Wag.Oms.OTUWS.RepositoryContracts\\Wag.Oms.OTUWS.RepositoryContracts.csproj
+		SccProjectName6 = Wag.Oms.OTUWS.RepositoryContracts
+		SccLocalPath6 = Wag.Oms.OTUWS.RepositoryContracts
+		SccProjectUniqueName7 = Wag.Oms.OTUWS.Test\\Wag.Oms.OTUWS.Test.csproj
+		SccProjectName7 = Wag.Oms.OTUWS.Test
+		SccLocalPath7 = Wag.Oms.OTUWS.Test
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63868E7C-C5AA-4FB8-8BD3-30B016E53E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63868E7C-C5AA-4FB8-8BD3-30B016E53E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63868E7C-C5AA-4FB8-8BD3-30B016E53E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63868E7C-C5AA-4FB8-8BD3-30B016E53E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C3B2618-39EA-4966-97F6-08A8C7A56611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C3B2618-39EA-4966-97F6-08A8C7A56611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C3B2618-39EA-4966-97F6-08A8C7A56611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C3B2618-39EA-4966-97F6-08A8C7A56611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE775352-2204-4495-92A0-DAFF948BB21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE775352-2204-4495-92A0-DAFF948BB21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE775352-2204-4495-92A0-DAFF948BB21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE775352-2204-4495-92A0-DAFF948BB21B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E421A4-4C3E-4C0E-BF10-4BD5CF19D924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E421A4-4C3E-4C0E-BF10-4BD5CF19D924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E421A4-4C3E-4C0E-BF10-4BD5CF19D924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E421A4-4C3E-4C0E-BF10-4BD5CF19D924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{410DD6AC-D1DB-45ED-BF14-271F49954878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410DD6AC-D1DB-45ED-BF14-271F49954878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410DD6AC-D1DB-45ED-BF14-271F49954878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410DD6AC-D1DB-45ED-BF14-271F49954878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{241D5663-A82A-4ADF-A848-6F3C90D95EC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{241D5663-A82A-4ADF-A848-6F3C90D95EC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{241D5663-A82A-4ADF-A848-6F3C90D95EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{241D5663-A82A-4ADF-A848-6F3C90D95EC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF05585B-1465-4BE3-AE4A-450467C2AB53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF05585B-1465-4BE3-AE4A-450467C2AB53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF05585B-1465-4BE3-AE4A-450467C2AB53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF05585B-1465-4BE3-AE4A-450467C2AB53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

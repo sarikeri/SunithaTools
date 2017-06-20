@@ -1,0 +1,382 @@
+﻿[
+  {
+    "StatusCode": "AA",
+    "StatusDescription": "Arrived at origin airport",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "AC",
+    "StatusDescription": "At Canada Post facility",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "AD",
+    "StatusDescription": "At delivery",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "AF",
+    "StatusDescription": "At local facility",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "AF",
+    "StatusDescription": "At local FedEx facility",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "AF",
+    "StatusDescription": "Picked up or Multiple statuses",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "AP",
+    "StatusDescription": "At pickup",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "AR",
+    "StatusDescription": "Arrived at FedEx location",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "AR",
+    "StatusDescription": "Arrived at customs broker",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "AX",
+    "StatusDescription": "At U.S. Postal Service facility",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "AXA",
+    "StatusDescription": "At U.S. Postal Service facility",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "CA",
+    "StatusDescription": "Shipment cancelled",
+    "OMSStatus": "NOT_DELIVERABLE"
+  },
+  {
+    "StatusCode": "CA",
+    "StatusDescription": "Shipment cancelled by sender",
+    "OMSStatus": "NOT_DELIVERABLE"
+  },
+  {
+    "StatusCode": "CA",
+    "StatusDescription": "Order Cancelled",
+    "OMSStatus": "NOT_DELIVERABLE"
+  },
+  {
+    "StatusCode": "CC",
+    "StatusDescription": "International shipment release",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "CC",
+    "StatusDescription": "Int’l shipment release",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "CD",
+    "StatusDescription": "Clearance delay",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "CH",
+    "StatusDescription": "Location changed",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "CP",
+    "StatusDescription": "Clearance in progress",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "CP",
+    "StatusDescription": "Pre-clearance delay",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "DD",
+    "StatusDescription": "Enroute to delivery/delayed",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "DE",
+    "StatusDescription": "Enroute to delivery/delayed",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "DE",
+    "StatusDescription": "Delivery exception",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "DL",
+    "StatusDescription": "Delivered",
+    "OMSStatus": "DELIVERED"
+  },
+  {
+    "StatusCode": "DL",
+    "StatusDescription": "Order Completed",
+    "OMSStatus": "DELIVERED"
+  },
+  {
+    "StatusCode": "DP",
+    "StatusDescription": "Departed FedEx location",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "DS",
+    "StatusDescription": "Vehicle dispatched",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "DS",
+    "StatusDescription": "US export approved",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "EA",
+    "StatusDescription": "Enroute to airport",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "ED",
+    "StatusDescription": "Enroute to delivery",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "EO",
+    "StatusDescription": "Enroute to origin airport",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "EP",
+    "StatusDescription": "Enroute to pickup",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "FD",
+    "StatusDescription": "At FedEx destination facility",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "FD",
+    "StatusDescription": "At local FedEx facility or multiple statuses",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "HL",
+    "StatusDescription": "At FedEx destination facility",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "HL",
+    "StatusDescription": "Held for pick up",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "HL",
+    "StatusDescription": "Item held at delivery office",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "IT",
+    "StatusDescription": "In transit",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "IT",
+    "StatusDescription": "In transit or multiple statuses",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "IT",
+    "StatusDescription": "International shipment release",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "IT",
+    "StatusDescription": "In transit (See Details)",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "LO",
+    "StatusDescription": "In transit or Multiple statuses",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "LO",
+    "StatusDescription": "In transit",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "OC",
+    "StatusDescription": "Order created",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "OC",
+    "StatusDescription": "Shipment information sent to FedEx",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "OD",
+    "StatusDescription": "On FedEx vehicle for delivery",
+    "OMSStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "StatusCode": "OD",
+    "StatusDescription": "Out for delivery",
+    "OMSStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "StatusCode": "OF",
+    "StatusDescription": "At FedEx origin facility",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "OX",
+    "StatusDescription": "Shipment information sent to U.S. Postal Service",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "PD",
+    "StatusDescription": "Enroute to pickup/delayed",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "PF",
+    "StatusDescription": "Plane in flight",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "PL",
+    "StatusDescription": "Arrived at dest airport",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "PM",
+    "StatusDescription": "In Progress",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "PU",
+    "StatusDescription": "Picked Up",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "PX",
+    "StatusDescription": "Picked Up (See Details)",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "RR",
+    "StatusDescription": "Hold at FedEx location request received",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "SE",
+    "StatusDescription": "Shipment exception",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "SE",
+    "StatusDescription": "Enroute to pickup/delayed",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "SF",
+    "StatusDescription": "At dest sort facility",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "SP",
+    "StatusDescription": "In transit or multiple statuses",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "SP",
+    "StatusDescription": "At local FedEx facility or multiple statuses",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "SP",
+    "StatusDescription": "Picked up or Multiple statuses",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "TR",
+    "StatusDescription": "Delivered to interline carrier",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "TR",
+    "StatusDescription": "Transfer",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "AS",
+    "StatusDescription": "Address corrected",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "HA",
+    "StatusDescription": "Hold at location request accepted",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "IP",
+    "StatusDescription": "In FedEx possession",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "IT",
+    "StatusDescription": "In transit (see Details)",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "RM",
+    "StatusDescription": "Delivery option updated",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "RC",
+    "StatusDescription": "Delivery option request cancelled",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "RP",
+    "StatusDescription": "Return label link emailed to return sender",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "LC",
+    "StatusDescription": "Return label link cancelled by shipment originator",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "RG",
+    "StatusDescription": "Return label link expiring soon",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "RD",
+    "StatusDescription": "Return label link expired",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "US",
+    "StatusDescription": "Scheduled delivery updated",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "DO",
+    "StatusDescription": "Dropped Off",
+    "OMSStatus": "IN_TRANSIT"
+  }
+]

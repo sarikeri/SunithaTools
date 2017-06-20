@@ -1,0 +1,71 @@
+{
+    "code": 11000,
+    "index": 1,
+    "errmsg": "E11000 duplicate key error collection: OAP.suborders index: _id_ dup key: { : \"593a8b507e503634d886fe89\" }",
+    "op": {
+        "_id": "593a8b507e503634d886fe89",
+        "orderId": "05289743204100",
+        "status": "New",
+        "location": {
+            "id": 10,
+            "type": 1
+        },
+        "primaryLocation": {
+            "id": 10,
+            "type": 1
+        },
+        "shippingTypeId": 1,
+        "baseShipping": 2,
+        "shippingTaxRate": 0,
+        "total": 5000,
+        "fsaPaymentTotal": 5000,
+        "alternatePaymentTotal": 1415,
+        "taxAmount": "2",
+        "taxRateProvider": "0",
+        "flags": {
+            "isSecondaryShip": false,
+            "isPresell": true,
+            "isSoftCancel": false,
+            "isFSA": false,
+            "isBackordered": false,
+            "isPartialSoftAllocate": false,
+            "isConsolidated": false,
+            "isMultiRoutedOOS": false,
+            "isRoutingQueueInjected": false
+        },
+        "lineItems": [
+            {
+                "lineItemId": "2",
+                "quantityOrdered": 5,
+                "taxRate": 0,
+                "taxableAmount": 0,
+                "flags": {
+                    "isHazmat": true,
+                    "isPresell": true,
+                    "isFSAItem": false,
+                    "isBaseSKU": true,
+                    "isAdjTooSoon": false,
+                    "isReorder": false,
+                    "isFSAPayment": false,
+                    "isKnownBO": false
+                }
+            },
+            {
+                "lineItemId": "3",
+                "quantityOrdered": 5,
+                "taxRate": 0,
+                "taxableAmount": 0,
+                "flags": {
+                    "isHazmat": true,
+                    "isPresell": true,
+                    "isFSAItem": false,
+                    "isBaseSKU": true,
+                    "isAdjTooSoon": false,
+                    "isReorder": false,
+                    "isFSAPayment": false,
+                    "isKnownBO": false
+                }
+            }
+        ]
+    }
+}

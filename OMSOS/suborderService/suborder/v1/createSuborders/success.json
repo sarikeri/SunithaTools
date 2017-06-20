@@ -1,0 +1,17 @@
+{result:{ok:1,n:2},ops:[{orderId:05289743204100,status:New,location:{id:10,type:1},
+primaryLocation:{id:10,type:1},shippingTypeId:1,baseShipping:2,shippingTaxRate:0,total:5000,
+fsaPaymentTotal:5000,alternatePaymentTotal:1415,taxAmount:2,taxRateProvider:0,flags:
+{isSecondaryShip:false,isPresell:true,isSoftCancel:false,isFSA:false,isBackordered:false,
+isPartialSoftAllocate:false,isConsolidated:false,isMultiRoutedOOS:false,isRoutingQueueInjected:false},
+lineItems:[{lineItemId:1,quantityOrdered:5,taxRate:0,taxableAmount:0,flags:{isHazmat:true,isPresell:true,
+isFSAItem:false,isBaseSKU:true,isAdjTooSoon:false,isReorder:false,isFSAPayment:false,isKnownBO:false}}],
+_id:593a9a3fdd59cb09a8bc4079},{orderId:05289743204100,status:New,location:{id:10,type:1},primaryLocation:{
+    id:10,type:1},shippingTypeId:1,baseShipping:2,shippingTaxRate:0,total:5000,fsaPaymentTotal:5000,alterna
+    tePaymentTotal:1415,taxAmount:2,taxRateProvider:0,flags:{isSecondaryShip:false,isPresell:true,isSoftCa
+    ncel:false,isFSA:false,isBackordered:false,isPartialSoftAllocate:false,isConsolidated:false,isMultiRo
+    utedOOS:false,isRoutingQueueInjected:false},lineItems:[{lineItemId:2,quantityOrdered:5,taxRate:0,tax
+    ableAmount:0,flags:{isHazmat:true,isPresell:true,isFSAItem:false,isBaseSKU:true,isAdjTooSoon:false,
+    isReorder:false,isFSAPayment:false,isKnownBO:false}},{lineItemId:3,quantityOrdered:5,taxRate:0,taxa
+    bleAmount:0,flags:{isHazmat:true,isPresell:true,isFSAItem:false,isBaseSKU:true,isAdjTooSoon:false,
+    isReorder:false,isFSAPayment:false,isKnownBO:false}}],_id:"593a9a3fdd59cb09a8bc407a"}],insertedCou
+    nt:2,insertedIds:["593a9a3fdd59cb09a8bc4079,593a9a3fdd59cb09a8bc407a"]}

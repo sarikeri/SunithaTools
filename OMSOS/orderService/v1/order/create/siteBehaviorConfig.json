@@ -1,0 +1,38 @@
+[
+    {
+        "siteId": "100",
+        "siteName": "Wag.com",
+        "clientId": "1",
+        "behavior": {
+            "fraudCheck": false,
+            "printPackingSlip": true,
+            "disallowedAddrTypes": [],
+            "allowedLocnTypeCodes": [
+                0,
+                2
+            ]
+        },
+        "hazmatShippingRestrictions": {
+            "disallowedCities": ["DPO", "FPO", "APO"],
+            "disallowedStates": ["HI","AK","AP","AE","AA"]
+        }
+    },
+    {
+        "siteId": "101",
+        "siteName": "WagISO",
+        "clientId": "1",
+        "behavior": {
+            "fraudCheck": false,
+            "printPackingSlip": true,
+            "disallowedAddrTypes": [],
+            "allowedLocnTypeCodes": [
+                0,
+                2
+            ]
+        },
+        "hazmatShippingRestrictions": {
+            "disallowedCities": ["DPO", "FPO", "APO"],
+            "disallowedStates": ["HI","AK","AP","AE","AA"]
+        }
+    }
+]

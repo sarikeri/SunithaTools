@@ -1,0 +1,720 @@
+{
+    "additionalProperties": false,
+    "required": [
+        "clientId",
+        "clientOrderId",
+        "groups",
+        "memberInfo",
+        "total",
+        "orderPlacedDate",
+        "siteId"
+    ],
+    "properties": {
+        "clientId": {
+            "type": "string",
+            "maxLength": 10
+        },
+        "clientOrderId": {
+            "type": "string",
+            "maxLength": 40,
+            "minLength": 5
+        },
+        "clientOrderRefId": {
+            "type": "string",
+            "maxLength": 40
+        },
+        "groups": {
+            "items": {
+                "additionalProperties": false,
+                "required": [
+                    "siteId",
+                    "clientGroupId",
+                    "lineItems",
+                    "shipMethodId",
+                    "shipAddr",
+                    "billAddr"
+                ],
+                "properties": {
+                    "billAddr": {
+                        "additionalProperties": false,
+                        "required": [
+                            "fullName",
+                            "type",
+                            "addr1",
+                            "city",
+                            "state",
+                            "postalCode",
+                            "countryCode"
+                        ],
+                        "properties": {
+                            "addr1": {
+                                "type": "string",
+                                "maxLength": 80,
+                                "minLength": 1
+                            },
+                            "addr2": {
+                                "type": "string",
+                                "maxLength": 80
+                            },
+                            "city": {
+                                "type": "string",
+                                "maxLength": 40,
+                                "minLength": 1
+                            },
+                            "clientAddrId": {
+                                "type": "string",
+                                "maxLength": 40
+                            },
+                            "countryCode": {
+                                "type": "string",
+                                "maxLength": 2,
+                                "minLength": 2,
+                                "pattern": "^[a-zA-Z]+$",
+                                "errorMessage": "should contain only 2 characters."
+                            },
+                            "fullName": {
+                                "type": "string",
+                                "maxLength": 255,
+                                "minLength": 1
+                            },
+                            "isPOBox": {
+                                "type": "boolean"
+                            },
+                            "phones": {
+                                "items": {
+                                    "additionalProperties": false,
+                                    "required": [
+                                        "num",
+                                        "type"
+                                    ],
+                                    "properties": {
+                                        "num": {
+                                            "type": "string",
+                                            "maxLength": 15,
+                                            "minLength": 1
+                                        },
+                                        "type": {
+                                            "type": "string",
+                                            "enum": [
+                                                "Residential",
+                                                "Mobile",
+                                                "Business",
+                                                "Other"
+                                            ]
+                                        }
+                                    },
+                                    "type": "object"
+                                },
+                                "type": "array"
+                            },
+                            "postalCode": {
+                                "type": "string",
+                                "maxLength": 20,
+                                "minLength": 1
+                            },
+                            "state": {
+                                "type": "string",
+                                "pattern": "^[a-zA-Z]+$",
+                                "errorMessage": "should contain only 2 characters."
+                            },
+                            "type": {
+                                "type": "string",
+                                "enum": [
+                                    "Other",
+                                    "Residential",
+                                    "Business",
+                                    "APO",
+                                    "FPO",
+                                    "DPO",
+                                    "PickupLocation"
+                                ]
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "clientGroupId": {
+                        "type": "string",
+                        "maxLength": 40,
+                        "minLength": 1
+                    },
+                    "clientGroupRefId": {
+                        "type": "string",
+                        "maxLength": 40
+                    },
+                    "currency": {
+                        "type": "string",
+                        "enum": [
+                            "USCents"
+                        ]
+                    },
+                    "extraPackingSlipInfo": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "accNumLast4": {
+                                "type": "string",
+                                "maxLength": 4
+                            },
+                            "balanceRewardsRedeemedAmt": {
+                                "type": "string",
+                                "maxLength": 10
+                            },
+                            "ccType": {
+                                "type": "string",
+                                "enum": [
+                                    "AmericanExpress",
+                                    "Bankcard",
+                                    "ChinaUnionPay",
+                                    "DinersClubCarteBlanche",
+                                    "DinersClubenRoute",
+                                    "DinersClubInternational",
+                                    "DinersClubUnitedStates",
+                                    "InstaPayment",
+                                    "DinersClubCanada",
+                                    "JCB",
+                                    "Laser",
+                                    "Maestro",
+                                    "MasterCard",
+                                    "Solo",
+                                    "Switch",
+                                    "Visa",
+                                    "VisaElectron",
+                                    "DiscoverCard",
+                                    "NotApplicable"
+                                ]
+                            },
+                            "paymentType": {
+                                "type": "string",
+                                "enum": [
+                                    "BML",
+                                    "Paypal",
+                                    "Loyalty",
+                                    "GiftCard",
+                                    "CreditCard",
+                                    "Flooz",
+                                    "GoogleCheckout",
+                                    "PaidInStore"
+                                ]
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "flags": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "isAutoReorder": {
+                                "type": "boolean"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "giftMsgInfo": {
+                        "additionalProperties": false,
+                        "required": [
+                            "senderName"
+                        ],
+                        "properties": {
+                            "msg": {
+                                "type": "string",
+                                "maxLength": 60,
+                                "pattern": "^[\\x20-\\x7E]+$",
+                                "errorMessage": "should contain only printable characters."
+                            },
+                            "senderName": {
+                                "type": "string",
+                                "maxLength": 18,
+                                "pattern": "^[\\x20-\\x7E]+$",
+                                "errorMessage": "should contain only printable characters."
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "isGift": {
+                        "type": "boolean"
+                    },
+                    "lineItems": {
+                        "items": {
+                            "additionalProperties": false,
+                            "required": [
+                                "orderedQty",
+                                "unitPrice",
+                                "adjustedUnitPrice",
+                                "tax",
+                                "siteId",
+                                "productId",
+                                "clientLineItemId",
+                                "clientProductId"
+                            ],
+                            "properties": {
+                                "adjustedUnitPrice": {
+                                    "type": "integer"
+                                },
+                                "brandId": {
+                                    "type": "string"
+                                },
+                                "brandName": {
+                                    "type": "string"
+                                },
+                                "clientLineItemRefId": {
+                                    "type": "string",
+                                    "maxLength": 40
+                                },
+                                "clientLineItemId": {
+                                    "type": "string",
+                                    "maxLength": 32,
+                                    "minLength": 1
+                                },
+                                "clientProductId": {
+                                    "type": "string",
+                                    "maxLength": 40,
+                                    "minLength": 1
+                                },
+                                "flags": {
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "isGWP": {
+                                            "type": "boolean"
+                                        },
+                                        "isHazmat": {
+                                            "type": "boolean"
+                                        },
+                                        "isKnownBO": {
+                                            "type": "boolean"
+                                        },
+                                        "isPresell": {
+                                            "type": "boolean"
+                                        }
+                                    },
+                                    "type": "object"
+                                },
+                                "manufacturerId": {
+                                    "type": "string"
+                                },
+                                "manufacturerName": {
+                                    "type": "string"
+                                },
+                                "orderedQty": {
+                                    "type": "integer",
+                                    "maximum": 150
+                                },
+                                "productDesc": {
+                                    "type": "string",
+                                    "maxLength": 200
+                                },
+                                "productId": {
+                                    "type": "string"
+                                },
+                                "promoItemPriceText": {
+                                    "type": "string",
+                                    "maxLength": 255
+                                },
+                                "siteId": {
+                                    "type": "string",
+                                    "maxLength": 10
+                                },
+                                "tax": {
+                                    "type": "integer"
+                                },
+                                "unitCost": {
+                                    "type": "integer"
+                                },
+                                "unitPrice": {
+                                    "type": "integer"
+                                },
+                                "unitShipCost": {
+                                    "type": "integer"
+                                },
+                                "upc": {
+                                    "type": "string",
+                                    "maxLength": 20
+                                },
+                                "upcCheckDigit": {
+                                    "type": "string"
+                                },
+                                "vendorProductId": {
+                                    "type": "string"
+                                }
+                            },
+                            "type": "object"
+                        },
+                        "type": "array"
+                    },
+                    "pickupInfo": {
+                        "additionalProperties": false,
+                        "required": [
+                            "locnType",
+                            "locnNum",
+                            "email",
+                            "fName",
+                            "lName"
+                        ],
+                        "properties": {
+                            "email": {
+                                "type": "string",
+                                "maxLength": 255
+                            },
+                            "fName": {
+                                "type": "string",
+                                "maxLength": 40
+                            },
+                            "lName": {
+                                "type": "string",
+                                "maxLength": 40
+                            },
+                            "locnNum": {
+                                "type": "string",
+                                "maxLength": 10,
+                                "minLength": 1
+                            },
+                            "locnType": {
+                                "type": "integer",
+                                "maximum": 100
+                            },
+                            "phones": {
+                                "items": {
+                                    "additionalProperties": false,
+                                    "required": [
+                                        "num",
+                                        "type"
+                                    ],
+                                    "properties": {
+                                        "num": {
+                                            "type": "string",
+                                            "maxLength": 15,
+                                            "minLength": 1
+                                        },
+                                        "type": {
+                                            "type": "string",
+                                            "enum": [
+                                                "Residential",
+                                                "Mobile",
+                                                "Business",
+                                                "Other"
+                                            ]
+                                        }
+                                    },
+                                    "type": "object"
+                                },
+                                "type": "array"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "reqArrivalDate": {
+                        "type": "string"
+                    },
+                    "shipAddr": {
+                        "additionalProperties": false,
+                        "required": [
+                            "fullName",
+                            "type",
+                            "addr1",
+                            "city",
+                            "state",
+                            "postalCode",
+                            "countryCode"
+                        ],
+                        "properties": {
+                            "addr1": {
+                                "type": "string",
+                                "maxLength": 80,
+                                "minLength": 1,
+                                "pattern": "^[\\x20-\\x7E]+$",
+                                "errorMessage": "should contain only printable characters."
+                            },
+                            "addr2": {
+                                "type": "string",
+                                "maxLength": 80,
+                                "pattern": "^[\\x20-\\x7E]+$",
+                                "errorMessage": "should contain only printable characters."
+                            },
+                            "city": {
+                                "type": "string",
+                                "maxLength": 40,
+                                "minLength": 1,
+                                "pattern": "^[\\x20-\\x7E]+$",
+                                "errorMessage": "should contain only printable characters."
+                            },
+                            "clientAddrId": {
+                                "type": "string",
+                                "maxLength": 40
+                            },
+                            "countryCode": {
+                                "type": "string",
+                                "maxLength": 2,
+                                "minLength": 2,
+                                "pattern": "^[a-zA-Z]+$",
+                                "errorMessage": "should contain only 2 characters."
+                            },
+                            "fullName": {
+                                "type": "string",
+                                "maxLength": 255,
+                                "minLength": 1,
+                                "pattern": "^[\\x20-\\x7E]+$",
+                                "errorMessage": "should contain only printable characters."
+                            },
+                            "isPOBox": {
+                                "type": "boolean"
+                            },
+                            "phones": {
+                                "items": {
+                                    "additionalProperties": false,
+                                    "required": [
+                                        "num",
+                                        "type"
+                                    ],
+                                    "properties": {
+                                        "num": {
+                                            "type": "string",
+                                            "maxLength": 15,
+                                            "minLength": 1,
+                                            "pattern": "^[\\x20-\\x7E]+$",
+                                            "errorMessage": "should contain only printable characters."
+                                        },
+                                        "type": {
+                                            "type": "string",
+                                            "enum": [
+                                                "Residential",
+                                                "Mobile",
+                                                "Business",
+                                                "Other"
+                                            ]
+                                        }
+                                    },
+                                    "type": "object"
+                                },
+                                "type": "array"
+                            },
+                            "postalCode": {
+                                "type": "string",
+                                "maxLength": 20,
+                                "minLength": 1,
+                                "pattern": "^[\\x20-\\x7E]+$",
+                                "errorMessage": "should contain only printable characters."
+                            },
+                            "state": {
+                                "type": "string",
+                                "maxLength": 2,
+                                "minLength": 2,
+                                "pattern": "^[\\x20-\\x7E]+$",
+                                "errorMessage": "should contain only 2 printable characters."
+                            },
+                            "type": {
+                                "type": "string",
+                                "enum": [
+                                    "Other",
+                                    "Residential",
+                                    "Business",
+                                    "APO",
+                                    "FPO",
+                                    "DPO",
+                                    "PickupLocation"
+                                ]
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "shipMethodId": {
+                        "type": "string",
+                        "enum": [
+                            "1",
+                            "2"
+                        ]
+                    },
+                    "siteId": {
+                        "type": "string",
+                        "maxLength": 10
+                    },
+                    "type": {
+                        "type": "string",
+                        "enum": [
+                            "CHUB",
+                            "Vision",
+                            "Regular"
+                        ]
+                    }
+                },
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "initialStatus": {
+            "type": "string",
+            "enum": [
+                "pendingForInstruction"
+            ]
+        },
+        "memberInfo": {
+            "additionalProperties": false,
+            "required": [
+                "clientMemberId",
+                "fName",
+                "lName",
+                "email"
+            ],
+            "properties": {
+                "clientMemberId": {
+                    "type": "string",
+                    "maxLength": 32,
+                    "minLength": 5
+                },
+                "email": {
+                    "type": "string",
+                    "maxLength": 255
+                },
+                "fName": {
+                    "type": "string",
+                    "maxLength": 40
+                },
+                "lName": {
+                    "type": "string",
+                    "maxLength": 40
+                },
+                "phones": {
+                    "items": {
+                        "additionalProperties": false,
+                        "required": [
+                            "num",
+                            "type"
+                        ],
+                        "properties": {
+                            "num": {
+                                "type": "string",
+                                "maxLength": 15,
+                                "minLength": 1
+                            },
+                            "type": {
+                                "type": "string",
+                                "enum": [
+                                    "Residential",
+                                    "Mobile",
+                                    "Business",
+                                    "Other"
+                                ]
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "type": "array"
+                }
+            },
+            "type": "object"
+        },
+        "notifyPkgTrackingEvents": {
+            "type": "boolean"
+        },
+        "orderPlacedDate": {
+            "type": "string"
+        },
+        "siteId": {
+            "type": "string",
+            "maxLength": 10
+        },
+        "total": {
+            "additionalProperties": false,
+            "required": [
+                "details",
+                "summary"
+            ],
+            "properties": {
+                "details": {
+                    "additionalProperties": false,
+                    "properties": {
+                        "fsa": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "credits": {
+                                    "type": "integer"
+                                },
+                                "currency": {
+                                    "type": "string",
+                                    "enum": [
+                                        "USCents"
+                                    ]
+                                },
+                                "discount": {
+                                    "type": "integer"
+                                },
+                                "shipping": {
+                                    "type": "integer"
+                                },
+                                "subtotal": {
+                                    "type": "integer"
+                                },
+                                "tax": {
+                                    "type": "integer"
+                                },
+                                "total": {
+                                    "type": "integer"
+                                }
+                            },
+                            "type": "object"
+                        },
+                        "nonFsa": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "credits": {
+                                    "type": "integer"
+                                },
+                                "currency": {
+                                    "type": "string",
+                                    "enum": [
+                                        "USCents"
+                                    ]
+                                },
+                                "discount": {
+                                    "type": "integer"
+                                },
+                                "shipping": {
+                                    "type": "integer"
+                                },
+                                "subtotal": {
+                                    "type": "integer"
+                                },
+                                "tax": {
+                                    "type": "integer"
+                                },
+                                "total": {
+                                    "type": "integer"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    },
+                    "type": "object"
+                },
+                "summary": {
+                    "additionalProperties": false,
+                    "properties": {
+                        "credits": {
+                            "type": "integer"
+                        },
+                        "currency": {
+                            "type": "string",
+                            "enum": [
+                                "USCents"
+                            ]
+                        },
+                        "discount": {
+                            "type": "integer"
+                        },
+                        "shipping": {
+                            "type": "integer"
+                        },
+                        "subtotal": {
+                            "type": "integer"
+                        },
+                        "tax": {
+                            "type": "integer"
+                        },
+                        "total": {
+                            "type": "integer"
+                        }
+                    },
+                    "type": "object"
+                }
+            },
+            "type": "object"
+        }
+    },
+    "type": "object"
+}

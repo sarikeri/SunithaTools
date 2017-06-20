@@ -1,0 +1,52 @@
+<OnTracTrackingResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Shipments>
+		<Shipment>
+			<Events>
+				<Event>
+					<Status>RS</Status>
+					<Description>RETURN TO SENDER ON NEXT BUSINESS DAY</Description>
+					<EventTime>2016-11-16T15:33:00</EventTime>
+					<Facility>Petaluma</Facility>
+					<City>PETALUMA</City>
+					<State>CA</State>
+					<Zip>94954</Zip>
+				</Event>
+				<Event>
+					<Status>XX</Status>
+					<Description>DATA ENTRY</Description>
+					<EventTime>2016-11-15T16:30:00</EventTime>
+					<Facility>Petaluma</Facility>
+					<City>PETALUMA</City>
+					<State>CA</State>
+					<Zip>94954</Zip>
+				</Event>
+			</Events>
+			<Tracking>C11592300016575</Tracking>
+			<Exp_Del_Date>2016-11-16T15:33:00</Exp_Del_Date>
+			<ShipDate>2016-11-15T00:00:00</ShipDate>
+			<Delivered>false</Delivered>
+			<Name>COURTNEY  BARRETT</Name>
+			<Contact/>
+			<Addr1>266 LENOX AVE #101</Addr1>
+			<Addr2/>
+			<Addr3/>
+			<City>OAKLAND</City>
+			<State>CA</State>
+			<Zip>94610</Zip>
+			<Service>Z </Service>
+			<POD/>
+			<Error/>
+			<Reference>PERISHABLE</Reference>
+			<Reference2/>
+			<Reference3/>
+			<ServiceCharge>9.73</ServiceCharge>
+			<FuelCharge>0</FuelCharge>
+			<TotalChrg>9.73</TotalChrg>
+			<Residential>true</Residential>
+			<Weight>17</Weight>
+			<Signature/>
+		</Shipment>
+	</Shipments>
+	<Note>Results Provided by OnTrac at 3/8/2017 5:45 AM</Note>
+	<Error/>
+</OnTracTrackingResult>

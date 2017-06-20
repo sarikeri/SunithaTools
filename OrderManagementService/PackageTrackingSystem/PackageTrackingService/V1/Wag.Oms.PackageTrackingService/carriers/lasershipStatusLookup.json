@@ -1,0 +1,317 @@
+[  
+  {
+    "StatusCode": "OrderCreated-INRL",
+    "StatusDescription": "Shipment information created by LaserShip",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "OrderCreated-EXRL",
+    "StatusDescription": "Shipment information received by LaserShip",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "OrderCreated-OVRG",
+    "StatusDescription": "Shipment information created by LaserShip",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "OrderCreated",
+    "StatusDescription": "Shipment information received by LaserShip",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Dispatched",
+    "StatusDescription": "Driver has been dispatched for pickup",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Received-PKUP",
+    "StatusDescription": "Order has been picked-up",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Received-ORIG",
+    "StatusDescription": "LaserShip Origin Scan",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Received-ARRD",
+    "StatusDescription": "Arrived at LaserShip Facility",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Loaded",
+    "StatusDescription": "Loaded onto vehicle",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Departed-FCTF",
+    "StatusDescription": "Departed from LaserShip Facility",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Departed-OFDL",
+    "StatusDescription": "Out for Delivery",
+    "OMSStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "StatusCode": "Delivered",
+    "StatusDescription": "Order has been delivered",
+    "OMSStatus": "DELIVERED"
+  },
+  {
+    "StatusCode": "Delivered-NPOD",
+    "StatusDescription": "Delivered without Electronic Signature",
+    "OMSStatus": "DELIVERED"
+  },
+  {
+    "StatusCode": "Delivered-NFRP",
+    "StatusDescription": "Order has been transfered to another carrier",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Attempted",
+    "StatusDescription": "Delivery has been attempted",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Attempted-BCLD",
+    "StatusDescription": "Delivery could not be completed - Business closed",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Attempted-CTRF",
+    "StatusDescription": "Delivery could not be completed - Recipient refused delivery",
+    "OMSStatus": "RETURN_TO_SENDER"
+  },
+  {
+    "StatusCode": "Attempted-RFDM",
+    "StatusDescription": "Delivery could not be completed - Parcel damaged",
+    "OMSStatus": "NOT_DELIVERABLE"
+  },
+  {
+    "StatusCode": "Attempted-NDMI",
+    "StatusDescription": "Delivery could not be completed - Additional information required",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Attempted-NTHM",
+    "StatusDescription": "Delivery could not be completed - No one at delivery location to accept parcel",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Attempted-INAD",
+    "StatusDescription": "Delivery could not be completed - Incorrect address",
+    "OMSStatus": "NOT_DELIVERABLE"
+  },
+  {
+    "StatusCode": "Attempted-ACSS",
+    "StatusDescription": "Delivery could not be completed - Unable to gain access to deliver order",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Attempted-MSPK",
+    "StatusDescription": "Parcel Missorted",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Attempted-OTBD",
+    "StatusDescription": "Mechanical breakdown, may impact delivery",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Attempted-ROOT",
+    "StatusDescription": "Unable to Complete before 5pm",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Attempted-WRDL",
+    "StatusDescription": "Delivery could not be completed - Delay due to weather or natural disaster",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Attempted-USFR",
+    "StatusDescription": "Delivery could not be completed - Area deemed unsafe for release",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Attempted-RRDV",
+    "StatusDescription": "Delivery could not be completed - Customer requested re-delivery at a later point",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Attempted-UTLV",
+    "StatusDescription": "Delivery could not be completed - Unable to leave parcel",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Attempted-PUIA",
+    "StatusDescription": "Could not locate Pickup. Incorrect Address",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Attempted-PUKT",
+    "StatusDescription": "Pickup refused. Customer kept parcel",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Attempted-PURU",
+    "StatusDescription": "Return unavailable for Pickup",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Exception-AFPR",
+    "StatusDescription": "Parcel is available for pickup from LaserShip facility",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Exception-DEAR",
+    "StatusDescription": "Recipient contacted to arrange delivery",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Exception-DMRT",
+    "StatusDescription": "Parcel damaged and will be Returned to sender",
+    "OMSStatus": "RETURN_TO_SENDER"
+  },
+  {
+    "StatusCode": "Exception-LOST",
+    "StatusDescription": "Parcel has been lost by LaserShip",
+    "OMSStatus": "NOT_DELIVERABLE"
+  },
+  {
+    "StatusCode": "Exception-RETN",
+    "StatusDescription": "Returned to sender",
+    "OMSStatus": "RETURN_TO_SENDER"
+  },
+  {
+    "StatusCode": "Exception-EXFT",
+    "StatusDescription": "Delay in delivery due to external factors",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Exception-ONHD",
+    "StatusDescription": "On Hold at LaserShip",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Exception-WTDL",
+    "StatusDescription": "Delay due to weather or natural disaster",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Exception-DPLC",
+    "StatusDescription": "Duplicate Order",
+    "OMSStatus": "NOT_DELIVERABLE"
+  },
+  {
+    "StatusCode": "Exception-FTCF",
+    "StatusDescription": "Parcel arrived at incorrect LaserShip facility and was forwarded to correct facility",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Exception-FRDL",
+    "StatusDescription": "Fraudulent Order",
+    "OMSStatus": "NOT_DELIVERABLE"
+  },
+  {
+    "StatusCode": "Exception-INAD",
+    "StatusDescription": "Incorrect Address",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Exception-DWDL",
+    "StatusDescription": "Parcel damaged and will be delivered",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Exception-DWDD",
+    "StatusDescription": "Parcel damaged and will be discarded",
+    "OMSStatus": "NOT_DELIVERABLE"
+  },
+  {
+    "StatusCode": "Exception-LLNH",
+    "StatusDescription": "Delay in delivery due to late linehaul",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Exception-LODK",
+    "StatusDescription": "Delay in delivery due to external factors",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Exception-MBKD",
+    "StatusDescription": "Driver experienced mechanical breakdown which may impact delivery",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Exception-ROOT",
+    "StatusDescription": "Ran Out of Time",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Exception-THFT",
+    "StatusDescription": "Theft",
+    "OMSStatus": "NOT_DELIVERABLE"
+  },
+  {
+    "StatusCode": "Exception-UFTA",
+    "StatusDescription": "Unable to forward to a different delivery address",
+    "OMSStatus": "NOT_DELIVERABLE"
+  },
+  {
+    "StatusCode": "Exception-WIOD",
+    "StatusDescription": "Parcel cancelled by customer",
+    "OMSStatus": "NOT_DELIVERABLE"
+  },
+  {
+    "StatusCode": "Exception-MSPK",
+    "StatusDescription": "Incorrect order picked by carrier",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Exception-MSRT",
+    "StatusDescription": "Parcel not received from sender",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Exception-SHOR",
+    "StatusDescription": "Parcel not received from sender",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Exception-HDCD",
+    "StatusDescription": "Delivery could not be completed - Operations closed due to Holiday",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Exception-APDL",
+    "StatusDescription": "Problem with address has been identified, order will be delivered",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Exception-MSST",
+    "StatusDescription": "Order missorted to incorrect delivery facility",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Exception-LATE",
+    "StatusDescription": "Delay in delivery due to late trailer from facility",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Exception-DDUM",
+    "StatusDescription": "DDU Mis-Routed",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Notification-DLAY",
+    "StatusDescription": "Possible Delay in Delivery",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "Notification-ICMP",
+    "StatusDescription": "Incomplete or missing Merchandise",
+    "OMSStatus": "NOT_DELIVERABLE"
+  }
+]

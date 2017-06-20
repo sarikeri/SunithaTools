@@ -1,0 +1,42 @@
+
+{
+    "orderFulfillmentStatus": {
+        "CancelPending": "Cancel Pending",
+        "Held": "Held",
+        "Completed": "Completed",
+        "PendingDemandCreation": "Pending Demand Creation"
+    },
+    "subGroupFulfillmentStatus": {
+        "Backordered": "Backordered",
+        "Held": "Held",
+        "CancelPending": "Cancel Pending",
+        "Cancelled": "Cancelled",
+        "Shipped": "Shipped",
+        "ShipReqSent": "ShipRequestSent",
+        "Deleted": "Deleted"
+    },
+    "ptsOmsCarrierMapping":{
+        "1": "USPS",
+        "2": "UPS",
+        "3": "UPS",
+        "4": "UPS",
+        "6": "USPS",
+        "7": "USPS",
+        "11": "USPS",
+        "12": "UPS",
+        "14": "USPS",
+        "44": "USPS",
+        "45": "USPS",
+        "48": "USPS",
+        "53": "FedEx",
+        "54": "UPS",
+        "55": "OnTrac",
+        "56": "Lasership",
+        "57": "FedEx",
+        "58": "FedEx",
+        "59": "FedEx",
+        "60": "FedEx",
+        "61": "FedEx",
+        "62": "FedEx"
+    }
+}

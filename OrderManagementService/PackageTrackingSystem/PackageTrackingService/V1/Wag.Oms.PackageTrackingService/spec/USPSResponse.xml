@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrackResponse>
+	<TrackInfo ID="9205590100067736107480">
+		<Class>Priority Mail&lt;SUP>&amp;#153;&lt;/SUP></Class>
+		<ClassOfMailCode>PM</ClassOfMailCode>
+		<DestinationCity>MAYAGUEZ</DestinationCity>
+		<DestinationState>PR</DestinationState>
+		<DestinationZip>00680</DestinationZip>
+		<EmailEnabled>true</EmailEnabled>
+		<KahalaIndicator>false</KahalaIndicator>
+		<MailTypeCode>DM</MailTypeCode>
+		<MPDATE>2017-02-13 20:06:39.000000</MPDATE>
+		<MPSUFFIX>088986019</MPSUFFIX>
+		<OriginCity>PENNSVILLE</OriginCity>
+		<OriginState>NJ</OriginState>
+		<OriginZip>08070</OriginZip>
+		<PodEnabled>false</PodEnabled>
+		<PredictedDeliveryDate>February 17, 2017</PredictedDeliveryDate>
+		<RestoreEnabled>false</RestoreEnabled>
+		<RramEnabled>false</RramEnabled>
+		<RreEnabled>false</RreEnabled>
+		<Service>USPS Tracking&lt;SUP>&amp;#174;&lt;/SUP></Service>
+		<Service>Up to $100 insurance included</Service>
+		<ServiceTypeCode>055</ServiceTypeCode>
+		<Status>Delivered, Left with Individual</Status>
+		<StatusCategory>Delivered</StatusCategory>
+		<StatusSummary>Your item was delivered to an individual at the address at 11:32 am on February 17, 2017 in MAYAGUEZ, PR 00680.</StatusSummary>
+		<TABLECODE>T</TABLECODE>
+		<TrackSummary>
+			<EventTime>11:32 am</EventTime>
+			<EventDate>February 17, 2017</EventDate>
+			<Event>Delivered, Left with Individual</Event>
+			<EventCity>MAYAGUEZ</EventCity>
+			<EventState>PR</EventState>
+			<EventZIPCode>00680</EventZIPCode>
+			<EventCountry/>
+			<FirmName/>
+			<Name/>
+			<AuthorizedAgent>false</AuthorizedAgent>
+			<EventCode>01</EventCode>
+			<DeliveryAttributeCode>04</DeliveryAttributeCode>
+		</TrackSummary>
+		<TrackDetail>
+			<EventTime>8:15 am</EventTime>
+			<EventDate>February 17, 2017</EventDate>
+			<Event>Out for Delivery</Event>
+			<EventCity>MAYAGUEZ</EventCity>
+			<EventState>PR</EventState>
+			<EventZIPCode>00680</EventZIPCode>
+			<EventCountry/>
+			<FirmName/>
+			<Name/>
+			<AuthorizedAgent>false</AuthorizedAgent>
+			<EventCode>OF</EventCode>
+		</TrackDetail>
+		<TrackDetail>
+			<EventTime>8:05 am</EventTime>
+			<EventDate>February 17, 2017</EventDate>
+			<Event>Sorting Complete</Event>
+			<EventCity>MAYAGUEZ</EventCity>
+			<EventState>PR</EventState>
+			<EventZIPCode>00680</EventZIPCode>
+			<EventCountry/>
+			<FirmName/>
+			<Name/>
+			<AuthorizedAgent>false</AuthorizedAgent>
+			<EventCode>PC</EventCode>
+		</TrackDetail>
+		<TrackDetail>
+			<EventTime>2:34 am</EventTime>
+			<EventDate>February 17, 2017</EventDate>
+			<Event>Arrived at Post Office</Event>
+			<EventCity>MAYAGUEZ</EventCity>
+			<EventState>PR</EventState>
+			<EventZIPCode>00680</EventZIPCode>
+			<EventCountry/>
+			<FirmName/>
+			<Name/>
+			<AuthorizedAgent>false</AuthorizedAgent>
+			<EventCode>07</EventCode>
+		</TrackDetail>
+		<TrackDetail>
+			<EventTime>6:29 am</EventTime>
+			<EventDate>February 16, 2017</EventDate>
+			<Event>Arrived at USPS Destination Facility</Event>
+			<EventCity>CATANO</EventCity>
+			<EventState>PR</EventState>
+			<EventZIPCode>00962</EventZIPCode>
+			<EventCountry/>
+			<FirmName/>
+			<Name/>
+			<AuthorizedAgent>false</AuthorizedAgent>
+			<EventCode>10</EventCode>
+		</TrackDetail>
+		<TrackDetail>
+			<EventTime>7:16 pm</EventTime>
+			<EventDate>February 15, 2017</EventDate>
+			<Event>In Transit to Destination</Event>
+			<EventCity/>
+			<EventState/>
+			<EventZIPCode/>
+			<EventCountry/>
+			<FirmName/>
+			<Name/>
+			<AuthorizedAgent>false</AuthorizedAgent>
+			<EventCode>EX</EventCode>
+		</TrackDetail>
+		<TrackDetail>
+			<EventTime>7:16 pm</EventTime>
+			<EventDate>February 14, 2017</EventDate>
+			<Event>Arrived at USPS Origin Facility</Event>
+			<EventCity>PHILADELPHIA</EventCity>
+			<EventState>PA</EventState>
+			<EventZIPCode>19116</EventZIPCode>
+			<EventCountry/>
+			<FirmName/>
+			<Name/>
+			<AuthorizedAgent>false</AuthorizedAgent>
+			<EventCode>10</EventCode>
+		</TrackDetail>
+		<TrackDetail>
+			<EventTime>6:01 pm</EventTime>
+			<EventDate>February 14, 2017</EventDate>
+			<Event>Accepted at USPS Origin Facility</Event>
+			<EventCity>PENNSVILLE</EventCity>
+			<EventState>NJ</EventState>
+			<EventZIPCode>08070</EventZIPCode>
+			<EventCountry/>
+			<FirmName/>
+			<Name/>
+			<AuthorizedAgent>false</AuthorizedAgent>
+			<EventCode>OA</EventCode>
+		</TrackDetail>
+		<TrackDetail>
+			<EventTime/>
+			<EventDate>February 13, 2017</EventDate>
+			<Event>Pre-Shipment Info Sent to USPS, USPS Awaiting Item</Event>
+			<EventCity/>
+			<EventState/>
+			<EventZIPCode/>
+			<EventCountry/>
+			<FirmName/>
+			<Name/>
+			<AuthorizedAgent>false</AuthorizedAgent>
+			<EventCode>MA</EventCode>
+		</TrackDetail>
+	</TrackInfo>
+</TrackResponse>

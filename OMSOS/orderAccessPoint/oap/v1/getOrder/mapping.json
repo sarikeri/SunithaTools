@@ -1,0 +1,17 @@
+{
+    "orderFulfillmentStatus": {
+        "CancelPending": "Cancel Pending",
+        "Held": "Held",
+        "Completed": "Completed",
+        "PendingDemandCreation": "Pending Demand Creation"
+    },
+    "subGroupFulfillmentStatus": {
+        "Backorder": "Backordered",
+        "Held": "Held",
+        "CancelPending": "Cancel Pending",
+        "Cancel": "Cancelled",
+        "Shipped": "Shipped",
+        "ShipRequestSent": "Ship Request Sent",
+        "Deleted": "Deleted"
+    }
+}

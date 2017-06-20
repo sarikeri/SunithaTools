@@ -1,0 +1,261 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "orderId",
+        "parentId",
+        "groupId",
+        "status",
+        "routingStatus",
+        "location",
+        "primaryLocation",
+        "shippingTypeId",
+        "shipAddr", 
+        "flags",
+        "createBy",        
+        "lineItems"
+    ],
+    "properties": {
+        "orderId": {
+            "type": "string",
+            "maxLength": 14
+        },
+        "parentId": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "maxLength": 14
+        },
+        "groupId": {
+            "type": "integer",
+            "minLength": 1,
+            "maxLength": 5
+        },
+        "status": {
+            "type": "string",
+            "enum": [
+                "New",
+                "Shipped",
+                "Backordared",
+                "Deleted",
+                "Cancelled"
+            ]
+        },
+        "routingStatus": {
+            "type": "integer",
+            "minLength": 1,
+            "maxLength": 5
+        },
+        "location": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "id",
+                "type"
+            ],
+            "properties": {
+                "id": {
+                    "type": "integer",
+                    "minLength": 2,
+                    "maxLength": 2
+                },
+                "type": {
+                    "type": "integer",
+                    "enum": [
+                        0,
+                        1
+                    ]
+                }
+            }
+        },
+        "primaryLocation": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "id",
+                "type"
+            ],
+            "properties": {
+                "id": {
+                    "type": "integer",
+                    "minLength": 2,
+                    "maxLength": 2
+                },
+                "type": {
+                    "type": "integer",
+                    "enum": [
+                        0,
+                        1
+                    ]
+                }
+            }
+        },
+        "shippingTypeId": {
+            "type": "integer",
+            "minLength": 1
+        },
+        "shipAddr": {
+            "additionalProperties": false,
+            "required": [
+                "clientAddrId",
+                "fullName",
+                "type",
+                "isPOBox",
+                "addr1",
+                "addr2",
+                "city",
+                "state",
+                "postalCode",
+                "countryCode",
+                "phones"
+            ],
+            "properties": {
+                "clientAddrId": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 20
+                },
+                "fullName": {
+                    "type": "string",
+                    "maxLength": 20,
+                    "minLength": 1
+                },
+                "type": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 10
+                },
+                "isPOBox": {
+                    "type": "boolean"
+                },
+                "addr1": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "minLength": 1,
+                    "maxLength": 50
+                },
+                "addr2": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 50
+                },
+                "city": {
+                    "type": "string",
+                    "maxLength": 20
+                },
+                "state": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 15
+                },
+                "postalCode": {
+                    "type": "string",
+                    "maxLength": 10
+                },
+                "countryCode": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "maxLength": 20
+                },
+                "phones": {
+                    "additionalProperties": false,
+                    "required": [
+                        "type",
+                        "num"
+                    ],
+                    "properties": {
+                        "type": {
+                            "type": "string",
+                            "maxLength": 10
+                        },
+                        "num": {
+                            "type": "string",
+                            "maxLength": 15
+                        }
+                    },
+                    "type": "array"
+                }
+            },
+            "type": "object"
+        },
+        "flags": {
+            "additionalProperties": false,
+            "required": [
+                "isPresell",
+                "isOutOfStock",
+                "isAdjTooSoon",
+                "isOutdropship"
+            ],
+            "properties": {
+                "isPresell": {
+                    "type": "boolean"
+                },
+                "isOutOfStock": {
+                    "type": "boolean"
+                },
+                "isAdjTooSoon": {
+                    "type": "boolean"
+                },
+                "isOutdropship": {
+                    "type": "boolean"
+                }
+            },
+            "type": "object"
+        },
+        "createBy": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "maxLength": 30
+        },
+        "lineItems": {
+            "additionalProperties": false,
+            "required": [
+                "lineItemId",
+                "quantityOrdered",
+                "flags"
+            ],
+            "properties": {
+                "lineItemId": {
+                    "type": "string",
+                    "minLength": 1
+                },
+                "quantityOrdered": {
+                    "type": "integer",
+                    "minLength": 1
+                },
+                "flags": {
+                    "additionalProperties": false,
+                    "required": [
+                        "isGwp",
+                        "isKnownBO",
+                        "isHazmat",
+                        "isPresell"
+                    ],
+                    "properties": {
+                        "isGwp": {
+                            "type": "boolean"
+                        },
+                        "isKnownBO": {
+                            "type": "boolean"
+                        },
+                        "isHazmat": {
+                            "type": "boolean"
+                        },
+                        "isPresell": {
+                            "type": "boolean"
+                        }
+                    },
+                    "type": "object"
+                }
+            },
+            "type": "array"
+        }
+    }
+}

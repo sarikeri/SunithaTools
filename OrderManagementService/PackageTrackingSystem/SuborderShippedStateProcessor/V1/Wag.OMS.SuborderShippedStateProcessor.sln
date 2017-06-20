@@ -1,0 +1,136 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wag.Oms.SOS.Handler", "Handler\Wag.Oms.SOS.Handler.csproj", "{D6445B77-0BD3-465F-9797-997968B8A447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wag.Oms.SOS.Common", "Library\Common\Wag.Oms.SOS.Common.csproj", "{E5FB27F2-5517-4E94-BC6C-751341411CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wag.Oms.SOS.DAL.Contracts", "Library\DAL\Contracts\Wag.Oms.SOS.DAL.Contracts.csproj", "{B2A138D5-A92C-444B-92B2-3E74F353CE2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wag.Oms.SOS.DAL.Repositories", "Library\DAL\Repositories\Wag.Oms.SOS.DAL.Repositories.csproj", "{87AC390E-517F-49FD-A521-FD22FD9D0126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wag.Oms.SOS.DataProviders.Common", "Library\DataProviders\Common\Wag.Oms.SOS.DataProviders.Common.csproj", "{27DAA6A9-3491-4BB8-A893-77785A3679D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wag.Oms.SOS.DataProviders.Contracts", "Library\DataProviders\Contracts\Wag.Oms.SOS.DataProviders.Contracts.csproj", "{78051A1C-5083-40C3-902F-F2D5162F19A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wag.Oms.SOS.Logging", "Library\Logging\Wag.Oms.SOS.Logging.csproj", "{1B972ABD-F2BD-4A8C-A058-FABF5F62BD29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wag.Oms.SOS.SuborderShippedStateProcessorService", "Service\Wag.Oms.SOS.SuborderShippedStateProcessorService.csproj", "{5376DC88-6A41-45ED-A3A7-82F2D2EFF0C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wag.Oms.Common.MultiProcess", "..\..\..\OMSLocking\Wag.Oms.Common.MultiProcess\Wag.Oms.Common.MultiProcess.csproj", "{315F0C74-464A-4740-8430-F5426732F192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wag.Oms.SOS.Providers", "Library\DataProviders\Providers\Wag.Oms.SOS.Providers.csproj", "{4ED607C9-E3B0-4075-96A1-8C1CBA38756F}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://hqtfs03c:8080/tfs/drugstore
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Library\\Common\\Wag.Oms.SOS.Common.csproj
+		SccProjectName1 = Library/Common
+		SccLocalPath1 = Library\\Common
+		SccProjectUniqueName2 = Library\\DAL\\Contracts\\Wag.Oms.SOS.DAL.Contracts.csproj
+		SccProjectName2 = Library/DAL/Contracts
+		SccLocalPath2 = Library\\DAL\\Contracts
+		SccProjectUniqueName3 = Library\\DAL\\Repositories\\Wag.Oms.SOS.DAL.Repositories.csproj
+		SccProjectName3 = Library/DAL/Repositories
+		SccLocalPath3 = Library\\DAL\\Repositories
+		SccProjectUniqueName4 = Library\\DataProviders\\Common\\Wag.Oms.SOS.DataProviders.Common.csproj
+		SccProjectName4 = Library/DataProviders/Common
+		SccLocalPath4 = Library\\DataProviders\\Common
+		SccProjectUniqueName5 = Library\\DataProviders\\Contracts\\Wag.Oms.SOS.DataProviders.Contracts.csproj
+		SccProjectName5 = Library/DataProviders/Contracts
+		SccLocalPath5 = Library\\DataProviders\\Contracts
+		SccProjectUniqueName6 = Handler\\Wag.Oms.SOS.Handler.csproj
+		SccProjectName6 = Handler
+		SccLocalPath6 = Handler
+		SccProjectUniqueName7 = Library\\Logging\\Wag.Oms.SOS.Logging.csproj
+		SccProjectName7 = Library/Logging
+		SccLocalPath7 = Library\\Logging
+		SccProjectUniqueName8 = Service\\Wag.Oms.SOS.SuborderShippedStateProcessorService.csproj
+		SccProjectName8 = Service
+		SccLocalPath8 = Service
+		SccProjectUniqueName9 = ..\\..\\..\\OMSLocking\\Wag.Oms.Common.MultiProcess\\Wag.Oms.Common.MultiProcess.csproj
+		SccProjectName9 = ../../../OMSLocking/Wag.Oms.Common.MultiProcess
+		SccLocalPath9 = ..\\..\\..\\OMSLocking\\Wag.Oms.Common.MultiProcess
+		SccProjectUniqueName10 = Library\\DataProviders\\Providers\\Wag.Oms.SOS.Providers.csproj
+		SccProjectName10 = Library/DataProviders/Providers
+		SccLocalPath10 = Library\\DataProviders\\Providers
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6445B77-0BD3-465F-9797-997968B8A447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6445B77-0BD3-465F-9797-997968B8A447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6445B77-0BD3-465F-9797-997968B8A447}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D6445B77-0BD3-465F-9797-997968B8A447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6445B77-0BD3-465F-9797-997968B8A447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6445B77-0BD3-465F-9797-997968B8A447}.Release|x86.ActiveCfg = Release|Any CPU
+		{E5FB27F2-5517-4E94-BC6C-751341411CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5FB27F2-5517-4E94-BC6C-751341411CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5FB27F2-5517-4E94-BC6C-751341411CC4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E5FB27F2-5517-4E94-BC6C-751341411CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5FB27F2-5517-4E94-BC6C-751341411CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5FB27F2-5517-4E94-BC6C-751341411CC4}.Release|x86.ActiveCfg = Release|Any CPU
+		{B2A138D5-A92C-444B-92B2-3E74F353CE2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A138D5-A92C-444B-92B2-3E74F353CE2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A138D5-A92C-444B-92B2-3E74F353CE2A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B2A138D5-A92C-444B-92B2-3E74F353CE2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A138D5-A92C-444B-92B2-3E74F353CE2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A138D5-A92C-444B-92B2-3E74F353CE2A}.Release|x86.ActiveCfg = Release|Any CPU
+		{87AC390E-517F-49FD-A521-FD22FD9D0126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87AC390E-517F-49FD-A521-FD22FD9D0126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87AC390E-517F-49FD-A521-FD22FD9D0126}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{87AC390E-517F-49FD-A521-FD22FD9D0126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87AC390E-517F-49FD-A521-FD22FD9D0126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87AC390E-517F-49FD-A521-FD22FD9D0126}.Release|x86.ActiveCfg = Release|Any CPU
+		{27DAA6A9-3491-4BB8-A893-77785A3679D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27DAA6A9-3491-4BB8-A893-77785A3679D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27DAA6A9-3491-4BB8-A893-77785A3679D0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{27DAA6A9-3491-4BB8-A893-77785A3679D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27DAA6A9-3491-4BB8-A893-77785A3679D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27DAA6A9-3491-4BB8-A893-77785A3679D0}.Release|x86.ActiveCfg = Release|Any CPU
+		{78051A1C-5083-40C3-902F-F2D5162F19A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78051A1C-5083-40C3-902F-F2D5162F19A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78051A1C-5083-40C3-902F-F2D5162F19A5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{78051A1C-5083-40C3-902F-F2D5162F19A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78051A1C-5083-40C3-902F-F2D5162F19A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78051A1C-5083-40C3-902F-F2D5162F19A5}.Release|x86.ActiveCfg = Release|Any CPU
+		{1B972ABD-F2BD-4A8C-A058-FABF5F62BD29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B972ABD-F2BD-4A8C-A058-FABF5F62BD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B972ABD-F2BD-4A8C-A058-FABF5F62BD29}.Debug|x86.ActiveCfg = Debug|x86
+		{1B972ABD-F2BD-4A8C-A058-FABF5F62BD29}.Debug|x86.Build.0 = Debug|x86
+		{1B972ABD-F2BD-4A8C-A058-FABF5F62BD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B972ABD-F2BD-4A8C-A058-FABF5F62BD29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B972ABD-F2BD-4A8C-A058-FABF5F62BD29}.Release|x86.ActiveCfg = Release|x86
+		{1B972ABD-F2BD-4A8C-A058-FABF5F62BD29}.Release|x86.Build.0 = Release|x86
+		{5376DC88-6A41-45ED-A3A7-82F2D2EFF0C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5376DC88-6A41-45ED-A3A7-82F2D2EFF0C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5376DC88-6A41-45ED-A3A7-82F2D2EFF0C1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5376DC88-6A41-45ED-A3A7-82F2D2EFF0C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5376DC88-6A41-45ED-A3A7-82F2D2EFF0C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5376DC88-6A41-45ED-A3A7-82F2D2EFF0C1}.Release|x86.ActiveCfg = Release|Any CPU
+		{315F0C74-464A-4740-8430-F5426732F192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{315F0C74-464A-4740-8430-F5426732F192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{315F0C74-464A-4740-8430-F5426732F192}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{315F0C74-464A-4740-8430-F5426732F192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{315F0C74-464A-4740-8430-F5426732F192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{315F0C74-464A-4740-8430-F5426732F192}.Release|x86.ActiveCfg = Release|Any CPU
+		{4ED607C9-E3B0-4075-96A1-8C1CBA38756F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED607C9-E3B0-4075-96A1-8C1CBA38756F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED607C9-E3B0-4075-96A1-8C1CBA38756F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4ED607C9-E3B0-4075-96A1-8C1CBA38756F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED607C9-E3B0-4075-96A1-8C1CBA38756F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED607C9-E3B0-4075-96A1-8C1CBA38756F}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

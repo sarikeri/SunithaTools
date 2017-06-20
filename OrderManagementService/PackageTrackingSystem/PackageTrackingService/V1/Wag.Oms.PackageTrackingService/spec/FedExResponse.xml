@@ -1,0 +1,300 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP-ENV:Header/>
+	<SOAP-ENV:Body>
+		<TrackReply xmlns="http://fedex.com/ws/track/v10">
+			<HighestSeverity>SUCCESS</HighestSeverity>
+			<Notifications>
+				<Severity>SUCCESS</Severity>
+				<Source>trck</Source>
+				<Code>0</Code>
+				<Message>Request was successfully processed.</Message>
+				<LocalizedMessage>Request was successfully processed.</LocalizedMessage>
+			</Notifications>
+			<TransactionDetail>
+				<CustomerTransactionId>Ground Track By
+Number</CustomerTransactionId>
+				<Localization>
+					<LanguageCode>EN</LanguageCode>
+					<LocaleCode>us</LocaleCode>
+				</Localization>
+			</TransactionDetail>
+			<Version>
+				<ServiceId>trck</ServiceId>
+				<Major>10</Major>
+				<Intermediate>0</Intermediate>
+				<Minor>0</Minor>
+			</Version>
+			<CompletedTrackDetails>
+				<HighestSeverity>SUCCESS</HighestSeverity>
+				<Notifications>
+					<Severity>SUCCESS</Severity>
+					<Source>trck</Source>
+					<Code>0</Code>
+					<Message>Request was successfully processed.</Message>
+					<LocalizedMessage>Request was successfully processed.</LocalizedMessage>
+				</Notifications>
+				<DuplicateWaybill>false</DuplicateWaybill>
+				<MoreData>false</MoreData>
+				<TrackDetailsCount>0</TrackDetailsCount>
+				<TrackDetails>
+					<Notification>
+						<Severity>SUCCESS</Severity>
+						<Source>trck</Source>
+						<Code>0</Code>
+						<Message>Request was successfully processed.</Message>
+						<LocalizedMessage>Request was successfully processed.</LocalizedMessage>
+					</Notification>
+					<TrackingNumber>122816215025810</TrackingNumber>
+					<TrackingNumberUniqueIdentifier>12013~122816215025810~FDEG</TrackingNumberUniqueIdentifier>
+					<StatusDetail>
+						<CreationTime>2014-01-09T00:00:00</CreationTime>
+						<Code>DL</Code>
+						<Description>Delivered</Description>
+						<Location>
+							<City>Norton</City>
+							<StateOrProvinceCode>VA</StateOrProvinceCode>
+							<CountryCode>US</CountryCode>
+							<CountryName>United States</CountryName>
+							<Residential>false</Residential>
+						</Location>
+					</StatusDetail>
+					<CarrierCode>FDXG</CarrierCode>
+					<OperatingCompanyOrCarrierDescription>FedEx Ground</OperatingCompanyOrCarrierDescription>
+					<OtherIdentifiers>
+						<PackageIdentifier>
+							<Type>CUSTOMER_REFERENCE</Type>
+							<Value>PO#174724</Value>
+						</PackageIdentifier>
+					</OtherIdentifiers>
+					<Service>
+						<Type>FEDEX_GROUND</Type>
+						<Description>FedEx Ground</Description>
+						<ShortDescription>FG</ShortDescription>
+					</Service>
+					<PackageWeight>
+						<Units>LB</Units>
+						<Value>21.5</Value>
+					</PackageWeight>
+					<PackageDimensions>
+						<Length>22</Length>
+						<Width>17</Width>
+						<Height>10</Height>
+						<Units>IN</Units>
+					</PackageDimensions>
+					<Packaging>Package</Packaging>
+					<PackagingType>YOUR_PACKAGING</PackagingType>
+					<PackageSequenceNumber>1</PackageSequenceNumber>
+					<PackageCount>1</PackageCount>
+					<SpecialHandlings>
+						<Type>DIRECT_SIGNATURE_OPTION</Type>
+						<Description>Direct Signature Required</Description>
+						<PaymentType>OTHER</PaymentType>
+					</SpecialHandlings>
+					<ShipperAddress>
+						<City>POST FALLS</City>
+						<StateOrProvinceCode>ID</StateOrProvinceCode>
+						<CountryCode>US</CountryCode>
+						<CountryName>United States</CountryName>
+						<Residential>false</Residential>
+					</ShipperAddress>
+					<OriginLocationAddress>
+						<City>SPOKANE</City>
+						<StateOrProvinceCode>WA</StateOrProvinceCode>
+						<CountryCode>US</CountryCode>
+						<CountryName>United States</CountryName>
+						<Residential>false</Residential>
+					</OriginLocationAddress>
+					<ShipTimestamp>2016-08-01T00:00:00</ShipTimestamp>
+					<DestinationAddress>
+						<City>NORTON</City>
+						<StateOrProvinceCode>VA</StateOrProvinceCode>
+						<CountryCode>US</CountryCode>
+						<CountryName>United States</CountryName>
+						<Residential>false</Residential>
+					</DestinationAddress>
+					<ActualDeliveryTimestamp>2014-01-09T13:31:00-05:00</ActualDeliveryTimestamp>
+					<ActualDeliveryAddress>
+						<City>Norton</City>
+						<StateOrProvinceCode>VA</StateOrProvinceCode>
+						<CountryCode>US</CountryCode>
+						<CountryName>United States</CountryName>
+						<Residential>false</Residential>
+					</ActualDeliveryAddress>
+					<DeliveryAttempts>0</DeliveryAttempts>
+					<DeliverySignatureName>ROLLINS</DeliverySignatureName>
+					<TotalUniqueAddressCountInConsolidation>0</TotalUniqueAddressCountInConsolidation>
+					<AvailableImages>SIGNATURE_PROOF_OF_DELIVERY</AvailableImages>
+					<NotificationEventsAvailable>ON_DELIVERY</NotificationEventsAvailable>
+					<DeliveryOptionEligibilityDetails>
+						<Option>INDIRECT_SIGNATURE_RELEASE</Option>
+						<Eligibility>INELIGIBLE</Eligibility>
+					</DeliveryOptionEligibilityDetails>
+					<DeliveryOptionEligibilityDetails>
+						<Option>REDIRECT_TO_HOLD_AT_LOCATION</Option>
+						<Eligibility>INELIGIBLE</Eligibility>
+					</DeliveryOptionEligibilityDetails>
+					<DeliveryOptionEligibilityDetails>
+						<Option>REROUTE</Option>
+						<Eligibility>INELIGIBLE</Eligibility>
+					</DeliveryOptionEligibilityDetails>
+					<DeliveryOptionEligibilityDetails>
+						<Option>RESCHEDULE</Option>
+						<Eligibility>INELIGIBLE</Eligibility>
+					</DeliveryOptionEligibilityDetails>
+					<Events>
+						<Timestamp>2014-01-09T13:31:00-05:00</Timestamp>
+						<EventType>DL</EventType>
+						<EventDescription>Delivered</EventDescription>
+						<Address>
+							<City>Norton</City>
+							<StateOrProvinceCode>VA</StateOrProvinceCode>
+							<PostalCode>24273</PostalCode>
+							<CountryCode>US</CountryCode>
+							<CountryName>United States</CountryName>
+							<Residential>false</Residential>
+						</Address>
+						<ArrivalLocation>DELIVERY_LOCATION</ArrivalLocation>
+					</Events>
+					<Events>
+						<Timestamp>2014-01-09T04:18:00-05:00</Timestamp>
+						<EventType>OD</EventType>
+						<EventDescription>On FedEx vehicle for delivery</EventDescription>
+						<Address>
+							<City>KINGSPORT</City>
+							<StateOrProvinceCode>TN</StateOrProvinceCode>
+							<PostalCode>37663</PostalCode>
+							<CountryCode>US</CountryCode>
+							<CountryName>United States</CountryName>
+							<Residential>false</Residential>
+						</Address>
+						<ArrivalLocation>VEHICLE</ArrivalLocation>
+					</Events>
+					<Events>
+						<Timestamp>2014-01-09T04:09:00-05:00</Timestamp>
+						<EventType>AR</EventType>
+						<EventDescription>At local FedEx facility</EventDescription>
+						<Address>
+							<City>KINGSPORT</City>
+							<StateOrProvinceCode>TN</StateOrProvinceCode>
+							<PostalCode>37663</PostalCode>
+							<CountryCode>US</CountryCode>
+							<CountryName>United States</CountryName>
+							<Residential>false</Residential>
+						</Address>
+						<ArrivalLocation>DESTINATION_FEDEX_FACILITY</ArrivalLocation>
+					</Events>
+					<Events>
+						<Timestamp>2014-01-08T23:26:00-05:00</Timestamp>
+						<EventType>IT</EventType>
+						<EventDescription>In transit</EventDescription>
+						<Address>
+							<City>KNOXVILLE</City>
+							<StateOrProvinceCode>TN</StateOrProvinceCode>
+							<PostalCode>37921</PostalCode>
+							<CountryCode>US</CountryCode>
+							<CountryName>United States</CountryName>
+							<Residential>false</Residential>
+						</Address>
+						<ArrivalLocation>FEDEX_FACILITY</ArrivalLocation>
+					</Events>
+					<Events>
+						<Timestamp>2014-01-08T18:14:07-06:00</Timestamp>
+						<EventType>DP</EventType>
+						<EventDescription>Departed FedEx location</EventDescription>
+						<Address>
+							<City>NASHVILLE</City>
+							<StateOrProvinceCode>TN</StateOrProvinceCode>
+							<PostalCode>37207</PostalCode>
+							<CountryCode>US</CountryCode>
+							<CountryName>United States</CountryName>
+							<Residential>false</Residential>
+						</Address>
+						<ArrivalLocation>FEDEX_FACILITY</ArrivalLocation>
+					</Events>
+					<Events>
+						<Timestamp>2014-01-08T15:16:00-06:00</Timestamp>
+						<EventType>AR</EventType>
+						<EventDescription>Arrived at FedEx location</EventDescription>
+						<Address>
+							<City>NASHVILLE</City>
+							<StateOrProvinceCode>TN</StateOrProvinceCode>
+							<PostalCode>37207</PostalCode>
+							<CountryCode>US</CountryCode>
+							<CountryName>United States</CountryName>
+							<Residential>false</Residential>
+						</Address>
+						<ArrivalLocation>FEDEX_FACILITY</ArrivalLocation>
+					</Events>
+					<Events>
+						<Timestamp>2014-01-07T00:29:00-06:00</Timestamp>
+						<EventType>AR</EventType>
+						<EventDescription>Arrived at FedEx location</EventDescription>
+						<Address>
+							<City>CHICAGO</City>
+							<StateOrProvinceCode>IL</StateOrProvinceCode>
+							<PostalCode>60638</PostalCode>
+							<CountryCode>US</CountryCode>
+							<CountryName>United States</CountryName>
+							<Residential>false</Residential>
+						</Address>
+						<ArrivalLocation>FEDEX_FACILITY</ArrivalLocation>
+					</Events>
+					<Events>
+						<Timestamp>2014-01-03T19:12:30-08:00</Timestamp>
+						<EventType>DP</EventType>
+						<EventDescription>Left FedEx origin facility</EventDescription>
+						<Address>
+							<City>SPOKANE</City>
+							<StateOrProvinceCode>WA</StateOrProvinceCode>
+							<PostalCode>99216</PostalCode>
+							<CountryCode>US</CountryCode>
+							<CountryName>United States</CountryName>
+							<Residential>false</Residential>
+						</Address>
+						<ArrivalLocation>ORIGIN_FEDEX_FACILITY</ArrivalLocation>
+					</Events>
+					<Events>
+						<Timestamp>2014-01-03T18:33:00-08:00</Timestamp>
+						<EventType>AR</EventType>
+						<EventDescription>Arrived at FedEx location</EventDescription>
+						<Address>
+							<City>SPOKANE</City>
+							<StateOrProvinceCode>WA</StateOrProvinceCode>
+							<PostalCode>99216</PostalCode>
+							<CountryCode>US</CountryCode>
+							<CountryName>United States</CountryName>
+							<Residential>false</Residential>
+						</Address>
+						<ArrivalLocation>FEDEX_FACILITY</ArrivalLocation>
+					</Events>
+					<Events>
+						<Timestamp>2014-01-03T15:00:00-08:00</Timestamp>
+						<EventType>PU</EventType>
+						<EventDescription>Picked up</EventDescription>
+						<Address>
+							<City>SPOKANE</City>
+							<StateOrProvinceCode>WA</StateOrProvinceCode>
+							<PostalCode>99216</PostalCode>
+							<CountryCode>US</CountryCode>
+							<CountryName>United States</CountryName>
+							<Residential>false</Residential>
+						</Address>
+						<ArrivalLocation>PICKUP_LOCATION</ArrivalLocation>
+					</Events>
+					<Events>
+						<Timestamp>2014-01-03T14:31:00-08:00</Timestamp>
+						<EventType>OC</EventType>
+						<EventDescription>Shipment information sent to FedEx</EventDescription>
+						<Address>
+							<PostalCode>83854</PostalCode>
+							<CountryCode>US</CountryCode>
+							<CountryName>United States</CountryName>
+							<Residential>false</Residential>
+						</Address>
+						<ArrivalLocation>CUSTOMER</ArrivalLocation>
+					</Events>
+				</TrackDetails>
+			</CompletedTrackDetails>
+		</TrackReply>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

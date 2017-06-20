@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F10F2C92-7D55-42B6-B717-5FA312D6F098}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wag.Oms.SOS.SuborderShippedStateProcessorService.UnitTest</RootNamespace>
+    <AssemblyName>Wag.Oms.SOS.SuborderShippedStateProcessorService.UnitTest</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Oracle.DataAccess, Version=2.112.3.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Externals\OracleDataProvider\x64\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.4.0.0.0.Fakes">
+      <HintPath>FakesAssemblies\System.Net.Http.4.0.0.0.Fakes.dll</HintPath>
+    </Reference>
+    <Reference Include="Wag.Oms.SOS.DAL.Repositories.Fakes">
+      <HintPath>FakesAssemblies\Wag.Oms.SOS.DAL.Repositories.Fakes.dll</HintPath>
+    </Reference>
+    <Reference Include="Wag.Oms.SOS.Handler.Fakes">
+      <HintPath>FakesAssemblies\Wag.Oms.SOS.Handler.Fakes.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="SuborderShippedStateProcessorHandlerTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\OMSLocking\Wag.Oms.Common.MultiProcess\Wag.Oms.Common.MultiProcess.csproj">
+      <Project>{315f0c74-464a-4740-8430-f5426732f192}</Project>
+      <Name>Wag.Oms.Common.MultiProcess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Handler\Wag.Oms.SOS.Handler.csproj">
+      <Project>{d6445b77-0bd3-465f-9797-997968b8a447}</Project>
+      <Name>Wag.Oms.SOS.Handler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Library\Common\Wag.Oms.SOS.Common.csproj">
+      <Project>{e5fb27f2-5517-4e94-bc6c-751341411cc4}</Project>
+      <Name>Wag.Oms.SOS.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Library\DAL\Contracts\Wag.Oms.SOS.DAL.Contracts.csproj">
+      <Project>{b2a138d5-a92c-444b-92b2-3e74f353ce2a}</Project>
+      <Name>Wag.Oms.SOS.DAL.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Library\DAL\Repositories\Wag.Oms.SOS.DAL.Repositories.csproj">
+      <Project>{87ac390e-517f-49fd-a521-fd22fd9d0126}</Project>
+      <Name>Wag.Oms.SOS.DAL.Repositories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Library\DataProviders\Common\Wag.Oms.SOS.DataProviders.Common.csproj">
+      <Project>{27daa6a9-3491-4bb8-a893-77785a3679d0}</Project>
+      <Name>Wag.Oms.SOS.DataProviders.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Library\DataProviders\Contracts\Wag.Oms.SOS.DataProviders.Contracts.csproj">
+      <Project>{78051a1c-5083-40c3-902f-f2d5162f19a5}</Project>
+      <Name>Wag.Oms.SOS.DataProviders.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Library\DataProviders\Providers\Wag.Oms.SOS.Providers.csproj">
+      <Project>{4ed607c9-e3b0-4075-96a1-8c1cba38756f}</Project>
+      <Name>Wag.Oms.SOS.Providers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Library\Logging\Wag.Oms.SOS.Logging.csproj">
+      <Project>{1b972abd-f2bd-4a8c-a058-fabf5f62bd29}</Project>
+      <Name>Wag.Oms.SOS.Logging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Service\Wag.Oms.SOS.SuborderShippedStateProcessorService.csproj">
+      <Project>{5376dc88-6a41-45ed-a3a7-82f2d2eff0c1}</Project>
+      <Name>Wag.Oms.SOS.SuborderShippedStateProcessorService</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <Fakes Include="Fakes\Wag.Oms.SOS.DAL.Repositories.fakes" />
+    <Fakes Include="Fakes\Wag.Oms.SOS.Handler.fakes" />
+    <Fakes Include="Fakes\System.Net.Http.fakes" />
+    <None Include="Wag.Oms.SOS.DataProviders.Common.dll.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Wag.Oms.SOS.Logging.dll.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

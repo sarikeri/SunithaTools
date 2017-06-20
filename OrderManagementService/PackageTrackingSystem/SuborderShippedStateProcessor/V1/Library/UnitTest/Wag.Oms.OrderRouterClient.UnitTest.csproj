@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{527C0CB4-96F6-467C-BCAD-598086030652}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wag.Oms.OrderRouterClient.UnitTest</RootNamespace>
+    <AssemblyName>Wag.Oms.OrderRouterClient.UnitTest</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Oracle.DataAccess, Version=4.112.3.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Externals\OracleDataProvider\11.2.0.4\x64\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="Wag.Oms.OrderRouterClient.DataProviders.Contracts.Fakes">
+      <HintPath>FakesAssemblies\Wag.Oms.OrderRouterClient.DataProviders.Contracts.Fakes.dll</HintPath>
+    </Reference>
+    <Reference Include="Wag.Oms.OrderRouterClient.Logging.Fakes">
+      <HintPath>FakesAssemblies\Wag.Oms.OrderRouterClient.Logging.Fakes.dll</HintPath>
+    </Reference>
+    <Reference Include="Wag.Oms.PostRouter.Webservice.Rest.Proxy">
+      <HintPath>..\..\bin\Wag.Oms.PostRouter.Webservice.Rest.Proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Wag.Oms.PostRouter.Webservice.Rest.Proxy.1.0.0.0.Fakes">
+      <HintPath>FakesAssemblies\Wag.Oms.PostRouter.Webservice.Rest.Proxy.1.0.0.0.Fakes.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="DataProvidersTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoutingFailureAndDiscrepancyHandlerTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Wag.Oms.OrderRouterClient.Common.csproj">
+      <Project>{e5fb27f2-5517-4e94-bc6c-751341411cc4}</Project>
+      <Name>Wag.Oms.OrderRouterClient.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\Contracts\Wag.Oms.OrderRouterClient.DAL.Contracts.csproj">
+      <Project>{b2a138d5-a92c-444b-92b2-3e74f353ce2a}</Project>
+      <Name>Wag.Oms.OrderRouterClient.DAL.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\Repositories\Wag.Oms.OrderRouterClient.DAL.Repositories.csproj">
+      <Project>{87ac390e-517f-49fd-a521-fd22fd9d0126}</Project>
+      <Name>Wag.Oms.OrderRouterClient.DAL.Repositories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataProviders\Common\Wag.Oms.OrderRouterClient.DataProviders.Common.csproj">
+      <Project>{27daa6a9-3491-4bb8-a893-77785a3679d0}</Project>
+      <Name>Wag.Oms.OrderRouterClient.DataProviders.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataProviders\Contracts\Wag.Oms.OrderRouterClient.DataProviders.Contracts.csproj">
+      <Project>{78051a1c-5083-40c3-902f-f2d5162f19a5}</Project>
+      <Name>Wag.Oms.OrderRouterClient.DataProviders.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataProviders\DcDefinitionProvider\Wag.Oms.OrderRouterClient.DcDefinitionProvider.csproj">
+      <Project>{d60829fc-0375-4125-9d0a-7893200ce679}</Project>
+      <Name>Wag.Oms.OrderRouterClient.DcDefinitionProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataProviders\OrderProvider\Wag.Oms.OrderRouterClient.OrderProvider.csproj">
+      <Project>{a2ab676c-55c4-4ae7-99ec-6607d66bfbf9}</Project>
+      <Name>Wag.Oms.OrderRouterClient.OrderProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataProviders\OrderRoutingDiscrepancyProvider\Wag.Oms.OrderRouterClient.OrderRoutingDiscrepancyProvider.csproj">
+      <Project>{42046f9d-120c-4560-90f9-405a2f68a4a6}</Project>
+      <Name>Wag.Oms.OrderRouterClient.OrderRoutingDiscrepancyProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataProviders\OrderRoutingFailureProvider\Wag.Oms.OrderRouterClient.OrderRoutingFailureProvider.csproj">
+      <Project>{d8751789-5ac8-49ec-988e-a59ba5bcbc5f}</Project>
+      <Name>Wag.Oms.OrderRouterClient.OrderRoutingFailureProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataProviders\RoutingQueueProvider\Wag.Oms.OrderRouterClient.RoutingQueueProvider.csproj">
+      <Project>{13180f73-ffda-487e-aa3b-886624a1870e}</Project>
+      <Name>Wag.Oms.OrderRouterClient.RoutingQueueProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataProviders\RoutingThreadReportsProvider\Wag.Oms.OrderRouterClient.RoutingThreadReportsProvider.csproj">
+      <Project>{855251ce-8469-4926-81ee-ad5b2ecc857e}</Project>
+      <Name>Wag.Oms.OrderRouterClient.RoutingThreadReportsProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataProviders\SuborderProvider\Wag.Oms.OrderRouterClient.SuborderProvider.csproj">
+      <Project>{4ed607c9-e3b0-4075-96a1-8c1cba38756f}</Project>
+      <Name>Wag.Oms.OrderRouterClient.SuborderProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logging\Wag.Oms.OrderRouterClient.Logging.csproj">
+      <Project>{1b972abd-f2bd-4a8c-a058-fabf5f62bd29}</Project>
+      <Name>Wag.Oms.OrderRouterClient.Logging</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Fakes Include="Fakes\Wag.Oms.PostRouter.Webservice.Rest.Proxy.fakes" />
+    <Fakes Include="Fakes\Wag.Oms.OrderRouterClient.Logging.fakes" />
+    <Fakes Include="Fakes\Wag.Oms.OrderRouterClient.DataProviders.Contracts.fakes" />
+    <None Include="Drugstore.EnterpriseServices.TaxService.TaxClient.dll.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Wag.Oms.Cancellation.Injection.Lib.DataProviderContracts.dll.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Wag.Oms.Cancellation.Injection.Lib.Logging.dll.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Wag.Oms.NewOrder.DataProviders.Common.dll.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Wag.Oms.OR.Webservice.Rest.Proxy.dll.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Wag.Oms.OrderRouterClient.DataProviders.Common.dll.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Wag.Oms.OrderRouterClient.Logging.dll.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Wag.Oms.OrderRouterClientService.UnitTest.dll.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Wag.Oms.PostRouter.Webservice.Rest.Proxy.dll.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

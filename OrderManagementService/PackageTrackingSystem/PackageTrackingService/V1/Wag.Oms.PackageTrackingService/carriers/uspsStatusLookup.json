@@ -1,0 +1,792 @@
+﻿[ 
+  {
+    "StatusCode": "01",
+    "StatusDescription": "DELIVERED",
+    "OMSStatus": "DELIVERED"
+  },
+  {
+    "StatusCode": "02",
+    "StatusDescription": "NOTICE LEFT",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "03",
+    "StatusDescription": "ACCEPT OR PICKUP",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "04",
+    "StatusDescription": "REFUSED",
+    "OMSStatus": "RETURN_TO_SENDER"
+  },
+  {
+    "StatusCode": "05",
+    "StatusDescription": "UNDELIVERABLE AS ADDRESSED",
+    "OMSStatus": "NOT_DELIVERABLE"
+  },
+  {
+    "StatusCode": "06",
+    "StatusDescription": "FORWARDED",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "07",
+    "StatusDescription": "ARRIVAL AT UNIT",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "08",
+    "StatusDescription": "MISSENT",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "09",
+    "StatusDescription": "RETURN TO SENDER",
+    "OMSStatus": "RETURN_TO_SENDER"
+  },
+  {
+    "StatusCode": "10",
+    "StatusDescription": "PROCESSED THROUGH USPS SORT FACILITY",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "11",
+    "StatusDescription": "SEIZED BY LAW ENFORCEMENT",
+    "OMSStatus": "NOT_DELIVERABLE"
+  },
+  {
+    "StatusCode": "12",
+    "StatusDescription": "VISIBLE DAMAGE",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "14",
+    "StatusDescription": "AVAILABLE FOR PICKUP",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "15",
+    "StatusDescription": "MIS-SHIPPED",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "16",
+    "StatusDescription": "AVAILABLE FOR RETURNS AGENT",
+    "OMSStatus": "RETURN_TO_SENDER"
+  },
+  {
+    "StatusCode": "17",
+    "StatusDescription": "TENDERED TO RETURNS AGENT",
+    "OMSStatus": "RETURN_TO_SENDER"
+  },
+  {
+    "StatusCode": "21",
+    "StatusDescription": "NO SUCH NUMBER",
+    "OMSStatus": "RETURN_TO_SENDER"
+  },
+  {
+    "StatusCode": "22",
+    "StatusDescription": "INSUFFICIENT ADDRESS",
+    "OMSStatus": "RETURN_TO_SENDER"
+  },
+  {
+    "StatusCode": "23",
+    "StatusDescription": "MOVED, LEFT NO ADDRESS",
+    "OMSStatus": "RETURN_TO_SENDER"
+  },
+  {
+    "StatusCode": "24",
+    "StatusDescription": "FORWARD EXPIRED",
+    "OMSStatus": "RETURN_TO_SENDER"
+  },
+  {
+    "StatusCode": "25",
+    "StatusDescription": "ADDRESSEE UNKNOWN",
+    "OMSStatus": "RETURN_TO_SENDER"
+  },
+  {
+    "StatusCode": "26",
+    "StatusDescription": "VACANT",
+    "OMSStatus": "RETURN_TO_SENDER"
+  },
+  {
+    "StatusCode": "27",
+    "StatusDescription": "UNCLAIMED",
+    "OMSStatus": "RETURN_TO_SENDER"
+  },
+  {
+    "StatusCode": "28",
+    "StatusDescription": "RETURN TO SENDER",
+    "OMSStatus": "RETURN_TO_SENDER"
+  },
+  {
+    "StatusCode": "29",
+    "StatusDescription": "RETURN TO SENDER",
+    "OMSStatus": "RETURN_TO_SENDER"
+  },
+  {
+    "StatusCode": "30",
+    "StatusDescription": "NO ACCESS",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "31",
+    "StatusDescription": "RETURN TO SENDER / NOT PICKED UP",
+    "OMSStatus": "RETURN_TO_SENDER"
+  },
+  {
+    "StatusCode": "32",
+    "StatusDescription": "DEAD MAIL / DISPOSED BY POST OFFICE",
+    "OMSStatus": "RETURN_TO_SENDER"
+  },
+  {
+    "StatusCode": "33",
+    "StatusDescription": "DEAD MAIL / SENT TO RECOVERY CENTER",
+    "OMSStatus": "RETURN_TO_SENDER"
+  },
+  {
+    "StatusCode": "43",
+    "StatusDescription": "PICKED UP",
+    "OMSStatus": "DELIVERED"
+  },
+  {
+    "StatusCode": "44",
+    "StatusDescription": "INTERCEPTED",
+    "OMSStatus": "NOT_DELIVERABLE"
+  },
+  {
+    "StatusCode": "45",
+    "StatusDescription": "TENDERED TO MILITARY AGENT",
+    "OMSStatus": "DELIVERED"
+  },
+  {
+    "StatusCode": "46",
+    "StatusDescription": "DUPLICATE LABEL ID",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "51",
+    "StatusDescription": "BUSINESS CLOSED",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "52",
+    "StatusDescription": "NOTICE LEFT",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "53",
+    "StatusDescription": "Receptacle Blocked",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "54",
+    "StatusDescription": "Receptacle Full/Item Oversized",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "55",
+    "StatusDescription": "No Secure Location Available",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "56",
+    "StatusDescription": "No Authorized Recipient Available",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "57",
+    "StatusDescription": "DELIVERY EXCEPTION - LOCAL WEATHER DELAY",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "58",
+    "StatusDescription": "HELD AT POST OFFICE",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "59",
+    "StatusDescription": "On Route",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "60",
+    "StatusDescription": "Tendered to Agent for Final Delivery",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "61",
+    "StatusDescription": "RECEIVED BY AGENT",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "62",
+    "StatusDescription": "RECIPIENT NOTIFIED BY AGENT",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "63",
+    "StatusDescription": "DELIVERED TO RECIPIENT BY AGENT",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "A0",
+    "StatusDescription": "FOREIGN ACCEPTANCE",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "A1",
+    "StatusDescription": "TRAILER ARRIVE",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "AD",
+    "StatusDescription": "Acceptance at Destination",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "AE",
+    "StatusDescription": "Arrive USPS Facility",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "AF",
+    "StatusDescription": "HANDOFF TO INTERMEDIATE CARRIER",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "AG",
+    "StatusDescription": "RECEIVED FROM INTERMEDIATE CARRIER",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "AH",
+    "StatusDescription": "DELIVERED TO POSTAL AGENT",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "AJ",
+    "StatusDescription": "INTERMEDIATE TRANSFER AIRPORT",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "AP",
+    "StatusDescription": "ACCEPTED BY ORIGIN CARRIER",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "AR",
+    "StatusDescription": "INBOUND INTERNATIONAL ARRIVAL",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "AS",
+    "StatusDescription": "ARRIVED IN DESTINATION COUNTRY",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "AT",
+    "StatusDescription": "ORIGIN CARRIER DEPARTED/UPLIFT",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "B0",
+    "StatusDescription": "FOREIGN ARRIVAL AT OUTWARD OFFICE",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "B1",
+    "StatusDescription": "OUTBOUND - INTO US CUSTOMS (CUSTOMS CLEARANCE)",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "B2",
+    "StatusDescription": "INTO CUSTOMS",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "B3",
+    "StatusDescription": "OUT OF CUSTOMS",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "B5",
+    "StatusDescription": "OUTBOUND - OUT OF US CUSTOMS",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "BA",
+    "StatusDescription": "BAD ADDRESS",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "BB",
+    "StatusDescription": "ARRIVED AT INTERNATIONAL SERVICE CENTER",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "BR",
+    "StatusDescription": "DELIVERED BY BROKER",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "BX",
+    "StatusDescription": "BUMPED DELAY",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "C0",
+    "StatusDescription": "FOREIGN INTERNATIONAL DISPATCH",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "CA",
+    "StatusDescription": "CLOSED ON ARRIVAL",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "CC",
+    "StatusDescription": "AWAITING CONSIGNEE COLLECTION",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "CD",
+    "StatusDescription": "CLEARANCE DELAY",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "CI",
+    "StatusDescription": "INBOUND INTO CUSTOMS",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "CM",
+    "StatusDescription": "CUSTOMER MOVED",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "CO",
+    "StatusDescription": "INBOUND OUT OF CUSTOMS",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "CR",
+    "StatusDescription": "RELEASE FROM CUSTOMS/BOND",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "D0",
+    "StatusDescription": "ARRIVED ABROAD",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "D1",
+    "StatusDescription": "Item into sorting center (Foreign Event)",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "D2",
+    "StatusDescription": "Item out of sorting center (Foreign Event)",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "DD",
+    "StatusDescription": "INTERNATIONAL DISPATCH READY",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "DE",
+    "StatusDescription": "Depart USPS Sort Facility",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "DG",
+    "StatusDescription": "ITEM HELD AT DELIVERY DEPOT OUT FOR DELIVERY ITEM ARRIVAL AT COLLECTION POINT",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "DL",
+    "StatusDescription": "DELIVERED (WITH SIGNATURE)",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "DN",
+    "StatusDescription": "DELIVERED DAMAGED",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "DP",
+    "StatusDescription": "DISPOSAL",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "DT",
+    "StatusDescription": "TRANSIT MAIL DISPATCH",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "DX",
+    "StatusDescription": "DELIVERY STATUS NOT UPDATED",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "E0",
+    "StatusDescription": "INTO FOREIGN CUSTOMS",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "E1",
+    "StatusDescription": "DEPARTED",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "EA",
+    "StatusDescription": "ENROUTE ARRIVAL",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "EB",
+    "StatusDescription": "ENROUTE ARRIVAL",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "ED",
+    "StatusDescription": "ENROUTE DEPARTURE",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "EF",
+    "StatusDescription": "Dispatched from Sort Facility",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "F0",
+    "StatusDescription": "OUT OF FOREIGN CUSTOMS",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "FD",
+    "StatusDescription": "WITH DELIVERY COURIER",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "G0",
+    "StatusDescription": "AT FOREIGN DELIVERY UNIT",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "GC",
+    "StatusDescription": "RETURN RECEIPT ASSOCIATED",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "GX",
+    "StatusDescription": "PREPARED FOR AGENT",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "H0",
+    "StatusDescription": "ATTEMPTED DELIVERY ABROAD",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "H8",
+    "StatusDescription": "FOREIGN RETURN TO SENDER",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "HP",
+    "StatusDescription": "HELD FOR PAYMENT",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "HX",
+    "StatusDescription": "HOLIDAY DELAY",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "I0",
+    "StatusDescription": "DELIVERED ABROAD",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "IC",
+    "StatusDescription": "RECEIPT INTO CUSTOMS/BOND",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "J0",
+    "StatusDescription": "ARRIVAL AT TRANSIT OFFICE FROM EXCHANGE",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "K0",
+    "StatusDescription": "DEPART FROM TRANSIT OFFICE OF EXCHANGE",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "K1",
+    "StatusDescription": "FORWARDING TO US CUSTOMS",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "K2",
+    "StatusDescription": "CONTACT US CUSTOMS",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "K3",
+    "StatusDescription": "FORWARDED BY USPS",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "K4",
+    "StatusDescription": "R.T.S: IMPROPER DOCUMENTATION",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "K5",
+    "StatusDescription": "R.T.S: ABANDONMENT",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "K6",
+    "StatusDescription": "R.T.S: DUTY NONPAYMENT",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "K7",
+    "StatusDescription": "PICKED UP AT CUSTOMS UNIT",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "L1",
+    "StatusDescription": "CONTAINER LOAD",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "LD",
+    "StatusDescription": "Logical Delivery",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "LT",
+    "StatusDescription": "MISSED DELIVERY CYCLE",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "LX",
+    "StatusDescription": "LOOP MAIL EXCEPTION",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "MA",
+    "StatusDescription": "ELECTRONIC SHIPPING INFO RECEIVED",
+    "OMSStatus": "AWAITING_CARRIER_PICKUP"
+  },
+  {
+    "StatusCode": "MC",
+    "StatusDescription": "MISCODE",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "MF",
+    "StatusDescription": "Item Departed from Destination Office of Exchange (Foreign Event)",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "MR",
+    "StatusDescription": "PICKED UP AND PROCESSED BY AGENT",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "MS",
+    "StatusDescription": "MISSORT",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "MU",
+    "StatusDescription": "ALERT MID User Needs To Be Registered",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "MX",
+    "StatusDescription": "ALERT Unauthorized MID Use",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "ND",
+    "StatusDescription": "NOT DELIVERED",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "NH",
+    "StatusDescription": "NOT HOME",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "NP",
+    "StatusDescription": "ORIGIN POST IS PREPARING SHIPMENT",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "OA",
+    "StatusDescription": "Origin Acceptance",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "OD",
+    "StatusDescription": "Processed at Destination Facility",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "OF",
+    "StatusDescription": "OUT FOR DELIVERY",
+    "OMSStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "StatusCode": "OH",
+    "StatusDescription": "ON HOLD",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "OK",
+    "StatusDescription": "INTERNATIONAL DELIVERED WITH SIGNATURE",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "PC",
+    "StatusDescription": "SORTING/PROCESSING COMPLETE",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "PD",
+    "StatusDescription": "PARTIAL DELIVERY",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "PE",
+    "StatusDescription": "EPG ORIGIN POST IS PREPARING SHIPMENT",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "PO",
+    "StatusDescription": "PROCESSED AT ORIGIN",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "PU",
+    "StatusDescription": "SHIPMENT PICK UP",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "R1",
+    "StatusDescription": "READY TO PROCESS",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "RD",
+    "StatusDescription": "REFUSED DELIVERY",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "RE",
+    "StatusDescription": "REFUSED ENTRY BY CUSTOMS",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "RT",
+    "StatusDescription": "RETURNED TO CONSIGNOR",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "SC",
+    "StatusDescription": "SERVICE CHANGE",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "SF",
+    "StatusDescription": "DEPART POST OFFICE",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "SS",
+    "StatusDescription": "SHIPMENT STOPPED",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "T1",
+    "StatusDescription": "TRAILER DEPART",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "TA",
+    "StatusDescription": "TRANSIT MAIL ARRIVAL",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "TM",
+    "StatusDescription": "SHIPMENT ACCEPTANCE",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "TP",
+    "StatusDescription": "ONFORWARDED TO THIRD PARTY",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "TR",
+    "StatusDescription": "TRANSFERRED THROUGH SERVICE CENTER",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "U1",
+    "StatusDescription": "CONTAINER UNLOAD",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "UA",
+    "StatusDescription": "Unmanifested Acceptance",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "VC",
+    "StatusDescription": "PACKAGE RESEARCH CASE CREATED",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "VF",
+    "StatusDescription": "2ND NOTICE GENERATED",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "VR",
+    "StatusDescription": "REDELIVERY SCHEDULED",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "VS",
+    "StatusDescription": "PACKAGE RETURN NOTICE GENERATED",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "VX",
+    "StatusDescription": "PACKAGE RESEARCH CASE CLOSED",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "WC",
+    "StatusDescription": "WITH COURIER",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "WX",
+    "StatusDescription": "WEATHER DELAY",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "WX",
+    "StatusDescription": "WEATHER DELAY",
+    "OMSStatus": "IN_TRANSIT"
+  }
+]

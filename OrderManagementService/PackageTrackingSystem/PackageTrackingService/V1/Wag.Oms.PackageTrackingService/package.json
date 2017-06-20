@@ -1,0 +1,39 @@
+{
+  "name": "wag.oms.package-tracking-service",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test": "istanbul test node_modules/jasmine/bin/jasmine.js -x **/spec/** -x **/Config/** -x **/public/** -x **/views/** -x **/routes/**"
+  },
+  "description": "Wag.Oms.PackageTrackingService",
+  "author": {
+    "name": "OAP-Team",
+    "email": ""
+  },
+  "dependencies": {
+    "async": "~0.2.10",
+    "body-parser": "^1.15.2",
+    "change-case": "^1.0.6",
+    "cheerio": "^0.13.1",
+    "continuation-local-storage": "^3.2.0",
+    "deasync": "^0.1.9",
+    "debug": "^2.3.2",
+    "express": "^4.14.0",
+    "express-request-id": "^1.4.0",
+    "fs": "0.0.1-security",
+    "istanbul": "^0.4.5",
+    "jade": "^1.11.0",
+    "jasmine": "^2.5.2",
+    "moment-timezone": "^0.4.1",
+    "morgan": "^1.7.0",
+    "oracledb": "^1.13.0",
+    "request": "^2.33.0",
+    "underscore": "^1.5.2",
+    "util": "^0.10.3",
+    "validator": "^6.1.0",
+    "winston": "^2.3.0",
+    "winston-daily-rotate-file": "^1.4.0",
+    "xml2js": "^0.4.17"
+  }
+}

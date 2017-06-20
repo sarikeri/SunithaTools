@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AF05585B-1465-4BE3-AE4A-450467C2AB53}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wag.Oms.EGWS.Test</RootNamespace>
+    <AssemblyName>Wag.Oms.EGWS.Test</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=4.112.4.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Externals\OracleDataProvider\11.2.0.4\x64\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="Wag.Oms.EGWS.Common.Fakes">
+      <HintPath>FakesAssemblies\Wag.Oms.EGWS.Common.Fakes.dll</HintPath>
+    </Reference>
+    <Reference Include="Wag.Oms.EGWS.Repositories.Fakes">
+      <HintPath>FakesAssemblies\Wag.Oms.EGWS.Repositories.Fakes.dll</HintPath>
+    </Reference>
+    <Reference Include="Wag.Oms.EGWS.RepositoryContracts.Fakes">
+      <HintPath>FakesAssemblies\Wag.Oms.EGWS.RepositoryContracts.Fakes.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="TestHeartbeat.cs" />
+    <Compile Include="TestEventGenerationHandler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Wag.Oms.EGWS.ApiContract\Wag.Oms.EGWS.ApiContract.csproj">
+      <Project>{7c3b2618-39ea-4966-97f6-08a8c7a56611}</Project>
+      <Name>Wag.Oms.EGWS.ApiContract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wag.Oms.EGWS.ApiImplementation\Wag.Oms.EGWS.ApiImplementation.csproj">
+      <Project>{fe775352-2204-4495-92a0-daff948bb21b}</Project>
+      <Name>Wag.Oms.EGWS.ApiImplementation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wag.Oms.EGWS.Common\Wag.Oms.EGWS.Common.csproj">
+      <Project>{241d5663-a82a-4adf-a848-6f3c90d95ec5}</Project>
+      <Name>Wag.Oms.EGWS.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wag.Oms.EGWS.Repositories\Wag.Oms.EGWS.Repositories.csproj">
+      <Project>{410dd6ac-d1db-45ed-bf14-271f49954878}</Project>
+      <Name>Wag.Oms.EGWS.Repositories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wag.Oms.EGWS.RepositoryContracts\Wag.Oms.EGWS.RepositoryContracts.csproj">
+      <Project>{97e421a4-4c3e-4c0e-bf10-4bd5cf19d924}</Project>
+      <Name>Wag.Oms.EGWS.RepositoryContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wag.Oms.EGWS.Rest\Wag.Oms.EGWS.Rest.csproj">
+      <Project>{63868e7c-c5aa-4fb8-8bd3-30b016e53e92}</Project>
+      <Name>Wag.Oms.EGWS.Rest</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Fakes Include="Fakes\Wag.Oms.EGWS.Repositories.fakes" />
+  </ItemGroup>
+  <ItemGroup>
+    <Fakes Include="Fakes\Wag.Oms.EGWS.RepositoryContracts.fakes" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Fakes Include="Fakes\Wag.Oms.EGWS.Common.fakes" />
+    <None Include="CodeCoverage.runsettings" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

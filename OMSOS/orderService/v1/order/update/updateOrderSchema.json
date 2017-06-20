@@ -1,0 +1,237 @@
+{
+    "additionalProperties": false,
+    "required": [
+        "clientId",
+        "orderId",
+        "action",
+        "modifiedBy",
+        "modifyReason"
+    ],
+    "properties": {
+        "action": {
+            "type": "string",
+            "enum": [
+                "Release"
+            ]
+        },
+        "clientId": {
+            "type": "string",
+            "maxLength": 10
+        },
+        "clientOrderRefId": {
+            "type": "string",
+            "maxLength": 40
+        },
+        "groups": {
+            "items": {
+                "additionalProperties": false,
+                "required": [
+                    "clientGroupId"
+                ],
+                "properties": {
+                    "clientGroupId": {
+                        "type": "string",
+                        "maxLength": 40,
+                        "minLength": 1
+                    },
+                    "extraPackingSlipInfo": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "balanceRewardsRedeemedAmt": {
+                                "type": "integer"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "lineItems": {
+                        "items": {
+                            "additionalProperties": false,
+                            "required": [
+                                "clientLineItemId"
+                            ],
+                            "properties": {
+                                "adjustedUnitPrice": {
+                                    "type": "integer"
+                                },
+                                "clientLineItemId": {
+                                    "type": "string",
+                                    "maxLength": 32,
+                                    "minLength": 1
+                                },
+                                "promoItemPriceText": {
+                                    "type": "string",
+                                    "maxLength": 255
+                                },
+                                "tax": {
+                                    "type": "integer"
+                                },
+                                "unitCost": {
+                                    "type": "integer"
+                                },
+                                "unitPrice": {
+                                    "type": "integer"
+                                },
+                                "unitShipCost": {
+                                    "type": "integer"
+                                }
+                            },
+                            "type": "object"
+                        },
+                        "type": "array"
+                    },
+                    "shipAddr": {
+                        "additionalProperties": false,
+                        "required": [
+                            "addr1"
+                        ],
+                        "properties": {
+                            "addr1": {
+                                "type": "string",
+                                "maxLength": 80,
+                                "minLength": 1,
+                                "pattern": "^[\\x20-\\x7E]+$",
+                                "errorMessage": "should contain only printable characters."
+                            },
+                            "addr2": {
+                                "type": "string",
+                                "maxLength": 80,
+                                "pattern": "^[\\x20-\\x7E]+$",
+                                "errorMessage": "should contain only printable characters."
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "shipMethodId": {
+                        "type": "string",
+                        "enum": [
+                            "1",
+                            "2"
+                        ]
+                    }
+                },
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "modifiedBy": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 255
+        },
+        "modifyReason": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 255
+        },
+        "orderId": {
+            "type": "string",
+            "pattern": "^\\d{14}$"
+        },
+        "total": {
+            "additionalProperties": false,
+            "required": [
+                "summary"
+            ],
+            "properties": {
+                "details": {
+                    "additionalProperties": false,
+                    "properties": {
+                        "fsa": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "credits": {
+                                    "type": "integer"
+                                },
+                                "currency": {
+                                    "type": "string",
+                                    "enum": [
+                                        "USCents"
+                                    ]
+                                },
+                                "discount": {
+                                    "type": "integer"
+                                },
+                                "shipping": {
+                                    "type": "integer"
+                                },
+                                "subtotal": {
+                                    "type": "integer"
+                                },
+                                "tax": {
+                                    "type": "integer"
+                                },
+                                "total": {
+                                    "type": "integer"
+                                }
+                            },
+                            "type": "object"
+                        },
+                        "nonFsa": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "credits": {
+                                    "type": "integer"
+                                },
+                                "currency": {
+                                    "type": "string",
+                                    "enum": [
+                                        "USCents"
+                                    ]
+                                },
+                                "discount": {
+                                    "type": "integer"
+                                },
+                                "shipping": {
+                                    "type": "integer"
+                                },
+                                "subtotal": {
+                                    "type": "integer"
+                                },
+                                "tax": {
+                                    "type": "integer"
+                                },
+                                "total": {
+                                    "type": "integer"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    },
+                    "type": "object"
+                },
+                "summary": {
+                    "additionalProperties": false,
+                    "properties": {
+                        "credits": {
+                            "type": "integer"
+                        },
+                        "currency": {
+                            "type": "string",
+                            "enum": [
+                                "USCents"
+                            ]
+                        },
+                        "discount": {
+                            "type": "integer"
+                        },
+                        "shipping": {
+                            "type": "integer"
+                        },
+                        "subtotal": {
+                            "type": "integer"
+                        },
+                        "tax": {
+                            "type": "integer"
+                        },
+                        "total": {
+                            "type": "integer"
+                        }
+                    },
+                    "type": "object"
+                }
+            },
+            "type": "object"
+        }
+    },
+    "type": "object"
+}

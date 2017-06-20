@@ -1,0 +1,212 @@
+[  
+  {
+    "StatusCode": "AI",
+    "StatusDescription": "DELIVERY ADDRESS INCOMPLETE",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "AN",
+    "StatusDescription": "DELIVERY AREA NOT ACCESSIBLE",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "BW",
+    "StatusDescription": "DELAY IN DELIVERY DUE TO BAD WEATHER",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "CA",
+    "StatusDescription": "CHANGE OF DELIVERY ADDRESS",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "CK",
+    "StatusDescription": "COD CHECK COLLECTED FROM CONSIGNEE",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "CL",
+    "StatusDescription": "DELIVERED IN GOOD CONDITION",
+    "OMSStatus": "DELIVERED"
+  },
+  {
+    "StatusCode": "CO",
+    "StatusDescription": "COMPANY CLOSED ON DELIVERY ATTEMPT",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "CR",
+    "StatusDescription": "RECIPIENT REFUSED DELIVERY",
+    "OMSStatus": "RETURN_TO_SENDER"
+  },
+  {
+    "StatusCode": "DC",
+    "StatusDescription": "PACKAGE RECEIVED DAMAGED",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "DD",
+    "StatusDescription": "PACKAGE DELIVERED DAMAGED",
+    "OMSStatus": "DELIVERED"
+  },
+  {
+    "StatusCode": "DG",
+    "StatusDescription": "UNSENDABLE - DANGEROUS GOODS",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "DI",
+    "StatusDescription": "CHANGE IN DELIVERY DATE REQUESTED",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "DM",
+    "StatusDescription": "DELIVERED OPEN CONTENTS MAYBE MISSING",
+    "OMSStatus": "DELIVERED"
+  },
+  {
+    "StatusCode": "DN",
+    "StatusDescription": "DELIVERED TO NEIGHBOR",
+    "OMSStatus": "DELIVERED"
+  },
+  {
+    "StatusCode": "DR",
+    "StatusDescription": "REFUSED TO ACCEPT DAMAGED PACKAGE",
+    "OMSStatus": "RETURN_TO_SENDER"
+  },
+  {
+    "StatusCode": "ER",
+    "StatusDescription": "INCORRECT STATUS CODE ENTERED",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "HO",
+    "StatusDescription": "RECIPIENT CLOSED FOR HOLIDAY",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "HP",
+    "StatusDescription": "HELD FOR CUSTOMER PICKUP",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "HW",
+    "StatusDescription": "HELD IN WAREHOUSE",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "IP",
+    "StatusDescription": "UNSENDABLE - IMPROPER PACKAGING",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "MC",
+    "StatusDescription": "CONTACT CUSTOMER SERVICE 800-334-5000",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "NH",
+    "StatusDescription": "NOT HOME ON DELIVERY ATTEMPT",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "OD",
+    "StatusDescription": "OUT FOR DELIVERY",
+    "OMSStatus": "OUT_FOR_DELIVERY"
+  },
+  {
+    "StatusCode": "OE",
+    "StatusDescription": "DATA ENTRY",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "OK",
+    "StatusDescription": "DELIVERED IN GOOD CONDITION",
+    "OMSStatus": "DELIVERED"
+  },
+  {
+    "StatusCode": "OO",
+    "StatusDescription": "DATA ENTRY",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "OS",
+    "StatusDescription": "PACKAGE RECEIVED AT FACILITY",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "PU",
+    "StatusDescription": "PICKED UP FROM SHIPPER",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "RB",
+    "StatusDescription": "REDELIVER ON NEXT BUSINESS DAY",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "RD",
+    "StatusDescription": "PACKAGE RECEIVED AT FACILITY",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "RS",
+    "StatusDescription": "RETURN TO SENDER ON NEXT BUSINESS DAY",
+    "OMSStatus": "RETURN_TO_SENDER"
+  },
+  {
+    "StatusCode": "SD",
+    "StatusDescription": "STAGED FOR DELIVERY",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "TP",
+    "StatusDescription": "TENDERED TO POST OFFICE",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "UA",
+    "StatusDescription": "UNSENDABLE - INCOMPLETE DELIVERY ADDRESS",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "UC",
+    "StatusDescription": "UNSENDABLE - UNACCEPTABLE CONTENTS/VALUE",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "UD",
+    "StatusDescription": "UNSENDABLE - BADLY DAMAGED",
+    "OMSStatus": "NOT_DELIVERABLE"
+  },
+  {
+    "StatusCode": "UM",
+    "StatusDescription": "UNDELIVERABLE MISSORTED",
+    "OMSStatus": "NOT_DELIVERABLE"
+  },
+  {
+    "StatusCode": "UO",
+    "StatusDescription": "UNSENDABLE - OTHER REASONS",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "UG",
+    "StatusDescription": "UNDELIVERABLE - NEED GATE CODE",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "WA",
+    "StatusDescription": "WRONG DELIVERY ADDRESS",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "WD",
+    "StatusDescription": "DELIVERED TO WRONG ADDRESS AND RETRIEVED",
+    "OMSStatus": "IN_TRANSIT"
+  },
+  {
+    "StatusCode": "XX",
+    "StatusDescription": "DATA ENTRY",
+    "OMSStatus": "IN_TRANSIT"
+  }
+]

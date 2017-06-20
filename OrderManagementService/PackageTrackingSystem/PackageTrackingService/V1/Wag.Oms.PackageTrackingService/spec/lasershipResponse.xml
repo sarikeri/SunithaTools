@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tracking>
+	<OrderNumber>188523947</OrderNumber>
+	<ReceivedOn>2017-01-19T21:02:07</ReceivedOn>
+	<UTCReceivedOn>2017-01-20T02:02:07</UTCReceivedOn>
+	<EstimatedDeliveryDate>2017-01-22</EstimatedDeliveryDate>
+	<Origin>
+		<City>BELLEVUE</City>
+		<State>WA</State>
+		<PostalCode>98004-8404</PostalCode>
+		<Country>US</Country>
+	</Origin>
+	<Destination>
+		<City>COHASSET</City>
+		<State>MA</State>
+		<PostalCode>02025-1406</PostalCode>
+		<Country>US</Country>
+	</Destination>
+	<Pieces>
+		<Piece>
+			<TrackingNumber>1LS713461451372</TrackingNumber>
+			<Weight>2.75</Weight>
+			<WeightUnit>lbs</WeightUnit>
+		</Piece>
+	</Pieces>
+	<Events>
+		<Event>
+			<DateTime>2017-01-22T13:18:09</DateTime>
+			<UTCDateTime>2017-01-22T18:18:09</UTCDateTime>
+			<City>COHASSET</City>
+			<State>MA</State>
+			<PostalCode>02025-1406</PostalCode>
+			<Country>US</Country>
+			<EventType>Delivered</EventType>
+			<EventModifier/>
+			<EventLabel>Delivered</EventLabel>
+			<EventShortText>Delivered</EventShortText>
+			<EventLongText>Order has been delivered</EventLongText>
+			<Signature/>
+			<Signature2/>
+			<Location>Front Door</Location>
+			<Reason/>
+		</Event>
+		<Event>
+			<DateTime>2017-01-22T09:12:28</DateTime>
+			<UTCDateTime>2017-01-22T14:12:28</UTCDateTime>
+			<City>WOBURN</City>
+			<State>MA</State>
+			<PostalCode>01801</PostalCode>
+			<Country>US</Country>
+			<EventType>Departed</EventType>
+			<EventModifier>OFDL</EventModifier>
+			<EventLabel>Out for Delivery</EventLabel>
+			<EventShortText>Out for Delivery to recipient</EventShortText>
+			<EventLongText>Out for Delivery: ETA 8pm or prior</EventLongText>
+			<Signature/>
+			<Signature2/>
+			<Location/>
+			<Reason/>
+		</Event>
+		<Event>
+			<DateTime>2017-01-22T09:10:22</DateTime>
+			<UTCDateTime>2017-01-22T14:10:22</UTCDateTime>
+			<City>WOBURN</City>
+			<State>MA</State>
+			<PostalCode>01801</PostalCode>
+			<Country>US</Country>
+			<EventType>Loaded</EventType>
+			<EventModifier/>
+			<EventLabel>Loaded</EventLabel>
+			<EventShortText>Loaded onto vehicle</EventShortText>
+			<EventLongText>Loaded onto vehicle</EventLongText>
+			<Signature/>
+			<Signature2/>
+			<Location/>
+			<Reason/>
+		</Event>
+		<Event>
+			<DateTime>2017-01-22T06:09:03</DateTime>
+			<UTCDateTime>2017-01-22T11:09:03</UTCDateTime>
+			<City>WOBURN</City>
+			<State>MA</State>
+			<PostalCode>01801</PostalCode>
+			<Country>US</Country>
+			<EventType>Received</EventType>
+			<EventModifier>ORIG</EventModifier>
+			<EventLabel>Origin Scan</EventLabel>
+			<EventShortText>Origin Scan</EventShortText>
+			<EventLongText>LaserShip Origin Scan</EventLongText>
+			<Signature/>
+			<Signature2/>
+			<Location/>
+			<Reason/>
+		</Event>
+		<Event>
+			<DateTime>2017-01-19T21:02:41</DateTime>
+			<UTCDateTime>2017-01-20T02:02:41</UTCDateTime>
+			<City/>
+			<State/>
+			<PostalCode/>
+			<Country>US</Country>
+			<EventType>OrderCreated</EventType>
+			<EventModifier>EXRL</EventModifier>
+			<EventLabel>Order Received</EventLabel>
+			<EventShortText>Ship Request Received</EventShortText>
+			<EventLongText>Shipment information received by LaserShip</EventLongText>
+			<Signature/>
+			<Signature2/>
+			<Location/>
+			<Reason/>
+		</Event>
+	</Events>
+</Tracking>
